@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Outfit:wght@100..900&family=Poetsen+One&family=Special+Gothic+Condensed+One&display=swap');
+
+*
+{
+  font-family: "Outfit", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #f5f5f5;
+  justify-content: center;
+}
+
+
+/* ======================================= Header ======================================= */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+  background-color: #000033;
+}
+
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  display: inline-block; 
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #fff;
+    color: #000033;
+    transform: scale(1.15); 
+}
+
+header ul li a.active:hover {
+  background: #bbbbbb; 
+}
+
+header ul li a i {
+  transform: translateY(10%);
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 80%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(200, 220, 255, 0.9));
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 10001;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.sub-menu li {
+  list-style: none;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.sub-menu li a {
+  padding: 10px 0;
+  display: block;
+  color: #000033;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.sub-menu li a:hover {
+  background: none;
+  background-size: 50%;
+  color: #000033;
+}
+
+.sub-menu.show {
+  display: flex;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.bx.bxs-chevron-down {
+  transition: transform 0.3s ease;
+}
+
+.menu-item.active .bx.bxs-chevron-down {
+transform: rotate(180deg);
+}
+
+/* ======================================= Section ======================================= */
+
+.about-header {
+  background: linear-gradient(#000033, #3d3c6a);
+  padding: 60px 20px 40px 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  clip-path: ellipse(100% 90% at 50% 0%);
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.about-header p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+  background: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  max-width: 500px;
+  flex: 1 1 300px;
+}
+
+.text-content h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #000033;
+}
+
+.text-content p {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 10px 22px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.buttons button:hover {
+  background: #e64a19;
+}
+
+.image-content {
+  position: relative;
+  flex: 1 1 250px;
+  max-width: 320px;
+  min-width: 220px;
+}
+
+.image-content img {
+  border-radius: 20px;
+  width: 100%;
+  display: block;
+  box-shadow: 0 4px 24px rgba(80,0,120,0.08);
+}
+
+.online-status {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: #fff;
+  padding: 12px 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  font-size: 0.98rem;
+}
+
+.online-status p {
+  margin: 0 0 6px 0;
+  color: #4a00e0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.online-status ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.online-status li {
+  margin-bottom: 2px;
+  color: #333;
+}
+
+.application-look {
+  text-align: center;
+  padding: 50px 20px 60px 20px;
+  background: #fff;
+}
+
+.application-look h2 {
+  font-size: 1.5rem;
+  color: #4a00e0;
+  margin-bottom: 16px;
+}
+
+.application-look p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.video-content {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.video-content img {
+  max-width: 100%;
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(80,0,120,0.08);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 38px;
+  color: #fff;
+  background: rgba(76, 0, 224, 0.7);
+  border-radius: 50%;
+  padding: 18px 22px 18px 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  transition: background 0.2s;
+}
+
+.play-button:hover {
+  background: rgba(255,87,34,0.8);
+}
+
+/* ======================================= Footer ======================================= */
+
+.site-footer {
+  background: linear-gradient(to right, #1a1a40, #3d3c6a);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.site-footer .footer-content {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.site-footer p {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.site-footer .social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.site-footer .social-icons a {
+  color: #fff;
+  font-size: 1.8em;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.site-footer .social-icons a:hover {
+  color: #00cfff;
+  transform: scale(1.2);
+}
+
+
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #00cfff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.8em;
+  padding: 12px 16px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+  transform: scale(1.15);
+  background-color: #009dcc;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
