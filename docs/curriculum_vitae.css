@@ -11,9 +11,7 @@ body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
   background: #f5f5f5;
-  display: flex;
   justify-content: center;
-  padding: 2rem;
 }
 
 
@@ -24,7 +22,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 5vw;
+  padding: 30px 100px;
   box-sizing: border-box;
   flex-wrap: wrap;
   display: flex;
@@ -45,6 +43,8 @@ header ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header ul li {
@@ -66,6 +66,10 @@ header ul li a.active {
     background: #fff;
     color: #000033;
     transform: scale(1.15); 
+}
+
+header ul li a.active:hover {
+  background: #bbbbbb; 
 }
 
 header ul li a i {
@@ -137,10 +141,24 @@ transform: rotate(180deg);
 
 .container {
   display: flex;
+  justify-content: center;   /* Center children horizontally */
+  align-items: center;       /* Center children vertically (optional) */
   max-width: 1200px;
   width: 100%;
   gap: 2rem;
   margin-top: 120px;
+  margin-bottom: 2rem;
+  margin-left: auto;         /* Center the container itself in the page */
+  margin-right: auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  height: 100vh;           /* Full viewport height (optional) */
+  text-align: center;      /* Optional: center text inside */
+  flex-direction: column;  /* Optional: stacks children vertically */
 }
 
 .cv-paper {
@@ -275,3 +293,71 @@ section a:hover {
 }
 
 
+/* ======================================= Footer ======================================= */
+.site-footer {
+  background: linear-gradient(to right, #1a1a40, #3d3c6a);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.site-footer .footer-content {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.site-footer p {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.site-footer .social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.site-footer .social-icons a {
+  color: #fff;
+  font-size: 1.8em;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.site-footer .social-icons a:hover {
+  color: #00cfff;
+  transform: scale(1.2);
+}
+
+
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #00cfff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.8em;
+  padding: 12px 16px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+  transform: scale(1.15);
+  background-color: #009dcc;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
