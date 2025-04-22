@@ -8,11 +8,16 @@
     scroll-behavior: smooth;
 }
 
+/* ======================================= Body ======================================= */
+
 body
 {
     min-height: 100vh;
     background: linear-gradient(#000033, #3d3c6a)
 }
+
+/* ======================================= Header ======================================= */
+
 header
 {
     position: absolute;
@@ -25,6 +30,7 @@ header
     align-items: center;
     z-index: 10000;
 }
+
 header .logo
 {
     color: #fff;
@@ -34,6 +40,7 @@ header .logo
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
 header ul {
     display: flex;
     justify-content: center;
@@ -82,11 +89,12 @@ header ul li a i {
 
 .sub-menu li {
     list-style: none;
+    margin-left: 10px;
     width: 80%;
 }
 
 .sub-menu li a {
-    padding: 10px 10px;
+    padding: 10px 0;
     display: block;
     color: #000033;
     text-decoration: none;
@@ -96,9 +104,9 @@ header ul li a i {
 }
 
 .sub-menu li a:hover {
-    background: #000033;
+    background: none;
     background-size: 50%;
-    color: #fff;
+    color: #000033;
 }
 
 .sub-menu.show {
@@ -125,6 +133,7 @@ header ul li a i {
 transform: rotate(180deg);
 }
 
+/* ======================================= Section ======================================= */
 
 section
 {
@@ -136,7 +145,7 @@ section
     justify-content: center;
     align-items: center;
 }
-/*Blur after the main component*/
+
 section::before
 {
     content: '';
@@ -148,6 +157,7 @@ section::before
     z-index: 1000;
 
 }
+
 section img
 {
     position: absolute;
@@ -163,6 +173,7 @@ section img
     initial-value: 0deg;
     inherits: false;
 }
+
 .circle, .circle::before{
     position: absolute;  
     width: 220px;   
@@ -175,6 +186,7 @@ section img
     z-index: 1; 
     animation: 3s spin linear infinite;
 }
+
 .circle::before {
     content: ''; 
     position: absolute; 
@@ -190,6 +202,7 @@ section img
         --angle: 360deg;  
     }
 }
+
 section video#background_clip {
     position: absolute;
     top: 0;
@@ -201,6 +214,7 @@ section video#background_clip {
     pointer-events: none;
     z-index: 0;
 }
+
 #name 
 {
     position: absolute;
@@ -209,6 +223,7 @@ section video#background_clip {
     font-size: 3.5vw;
     z-index: 3;
 }
+
 #learn_more
 {
     text-decoration: none;
@@ -222,6 +237,9 @@ section video#background_clip {
     font-size: 1.5em;
     transform: translateY(100px);
 }
+
+/* ======================================= Learn More ======================================= */
+
 
 .div_learn_more
 {
