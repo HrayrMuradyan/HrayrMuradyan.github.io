@@ -266,6 +266,10 @@ ul.square-list li {
   border-radius: 20px;
 }
 
+.work-experience{
+  margin-top: 30px;
+}
+
 
 .work-experience h2{
   font-size: 2.5rem;
@@ -277,16 +281,29 @@ ul.square-list li {
 }
 
 .work-experience-content {
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  max-width: 80%;
+  padding: 10px 100px 0 100px;
+  max-width: 60%;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
 .work-experience-content p {
   text-align: center;
+}
+
+.work-experience-content .image-container {
+  display: flex;
+  justify-content: center;     
+  align-items: center;         
+  gap: 20px;                    
+}
+
+.work-experience-content .image-container img {
+  height: 200px;                
+  object-fit: contain;      
 }
 
 
