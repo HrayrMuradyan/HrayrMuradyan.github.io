@@ -186,9 +186,13 @@ transform: rotate(180deg);
 
 .buttons {
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttons button {
+  align-items: center;
+  justify-content: center;
   margin-right: 10px;
   padding: 10px 22px;
   background-color: #ff5722;
@@ -205,18 +209,36 @@ transform: rotate(180deg);
   background: #e64a19;
 }
 
+ul.square-list li {
+  margin-bottom: 10px; 
+}
+
 .image-content {
   position: relative;
   flex: 1 1 250px;
-  max-width: 320px;
+  max-width: 400px;
   min-width: 220px;
+  text-align: center;
 }
 
 .image-content img {
   border-radius: 20px;
+  margin-top: 30px;
   width: 100%;
   display: block;
   box-shadow: 0 4px 24px rgba(80,0,120,0.08);
+  margin-bottom: 10px;
+}
+
+.image-content .picture-source {
+  color: black;
+  text-decoration: None;
+  margin-top: 20px;
+}
+
+.image-content .picture-source:hover {
+  color: #007acc; 
+  text-decoration: underline;
 }
 
 .online-status {
