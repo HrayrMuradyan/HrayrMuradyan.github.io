@@ -4,236 +4,248 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Curriculum Vitae</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="curriculum_vitae.css" />
 </head>
-<body>
-  <header>
-    <a href="#" class="logo">Curriculum Vitae</a>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li>
+  <body>
+    <header>
+      <a href="#" class="logo">Curriculum Vitae</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="curriculum_vitae.html" class="active">CV</a></li>
+        <li class="menu-item">
+            <a href="#" class="work-link">Work <i class="bx bxs-chevron-down" id="arrow"></i></a>
+            <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="#"><i class='bx bxs-leaf'></i> Blog</a></li>
+                <li><a href="#"><i class='bx bxs-medal'></i> Achievements</a></li>
+                <li><a href="#"><i class='bx bxl-youtube' ></i> YouTube</a></li>
+                <li><a href="#"><i class='bx bx-plus-medical'></i> Other</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
     </ul>
-  </header>
+    </header>
 
-  <div class="container">
-    <div class="cv-paper">
-      <section id="about">
-        <h1>Hrayr Muradyan</h1>
-        <h2>Contact Information</h2>
-        <div class="cv-item">
-          <div class="cv-left">Email</div>
-          <div class="cv-right">hrayrmuradyan20@gmail.com</div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">LinkedIn</div>
-            <div class="cv-right"><a href="https://www.linkedin.com/in/hrayr-muradyan/">https://www.linkedin.com/in/hrayr-muradyan/</a></div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">GitHub</div>
-            <div class="cv-right"><a href="https://github.com/HrayrMuradyan">https://github.com/HrayrMuradyan</a></div>
-        </div>
-      </section>
+    <div class="container">
+      <div class="cv-paper">
+        <section id="about">
+          <h1>Hrayr Muradyan</h1>
+          <h2>Contact Information</h2>
+          <div class="cv-item">
+            <div class="cv-left">Email</div>
+            <div class="cv-right">hrayrmuradyan20@gmail.com</div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">LinkedIn</div>
+              <div class="cv-right"><a href="https://www.linkedin.com/in/hrayr-muradyan/">https://www.linkedin.com/in/hrayr-muradyan/</a></div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">GitHub</div>
+              <div class="cv-right"><a href="https://github.com/HrayrMuradyan">https://github.com/HrayrMuradyan</a></div>
+          </div>
+        </section>
 
-      <section id="experience">
-        <h2>Work Experience</h2>
-        <div class="cv-item">
-          <div class="cv-left">
-            Data Scientist
-            <div class="date">Apr 2025 - Current</div>
-            <div class="location">Vancouver, BC, Canada</div>
-          </div>
-          <div class="cv-right">
-            <strong>HCL Technologies</strong><br>UBC Capstone Project.
-          </div>
-        </div>
-        <div class="cv-item">
+        <section id="experience">
+          <h2>Work Experience</h2>
+          <div class="cv-item">
             <div class="cv-left">
-              AI Content Creator
-              <div class="date">May 2024 – Current</div>
+              Data Scientist
+              <div class="date">Apr 2025 - Current</div>
               <div class="location">Vancouver, BC, Canada</div>
             </div>
             <div class="cv-right">
-              <strong>YouTube</strong><br>Founder & Creator of an AI-focused YouTube channel (<a href="https://www.youtube.com/@EasyAIForAll">AI For Beginners</a>), simplifying complex concepts with engaging visuals. 
-              Rapidly expanding, showcasing expertise in AI communication and content strategy.
-              <br>14k+ subscribers, 233.4K+ total views, 99%+ like ratio with 28 videos showing strong audience engagement and efficient planning. 
-              <br>Built and grew the channel in a highly competitive niche while managing full-time studies and part-time work. 
+              <strong>HCL Technologies</strong><br>UBC Capstone Project.
             </div>
-        </div>
-        <div class="cv-item">
-          <div class="cv-left">
-            ML Researcher
-            <div class="date">Oct 2024 – Current</div>
-            <div class="location">Yerevan, Armenia (Remote)</div>
           </div>
-          <div class="cv-right">
-            <strong>ServiceTitan</strong><br>ServiceTitan is a unicorn SaaS company headquartered in US, Los Angeles, powering home service businesses.
-            <br>Conducting literature review on sales pitch generation using Large Language Models. Applying advanced Prompt Engineering techniques and domain-specific knowledge to craft persuasive sales arguments using ChatGPT API.
-            <br>Implementing RAGs, specifically Nearest Neighbours Search, to extend and generate better sales proposals. Enhanced the proposal quality by reducing the custom evaluation metric’s median score from 11 to 4.
-            <br>Trained a regression model to predict the optimal length of the proposal which improved the MAE score by ~40%.
-            <br>Performing data analysis, visualizations and evaluation of generations to understand future directions.
+          <div class="cv-item">
+              <div class="cv-left">
+                AI Content Creator
+                <div class="date">May 2024 – Current</div>
+                <div class="location">Vancouver, BC, Canada</div>
+              </div>
+              <div class="cv-right">
+                <strong>YouTube</strong><br>Founder & Creator of an AI-focused YouTube channel (<a href="https://www.youtube.com/@EasyAIForAll">AI For Beginners</a>), simplifying complex concepts with engaging visuals. 
+                Rapidly expanding, showcasing expertise in AI communication and content strategy.
+                <br>14k+ subscribers, 233.4K+ total views, 99%+ like ratio with 28 videos showing strong audience engagement and efficient planning. 
+                <br>Built and grew the channel in a highly competitive niche while managing full-time studies and part-time work. 
+              </div>
           </div>
-        </div>
-        <div class="cv-item">
+          <div class="cv-item">
             <div class="cv-left">
-              Research Assistant
-              <div class="date">Aug 2024 – Dec 2024</div>
+              ML Researcher
+              <div class="date">Oct 2024 – Current</div>
               <div class="location">Yerevan, Armenia (Remote)</div>
             </div>
             <div class="cv-right">
-              <strong>American University of Armenia</strong><br>The aim of the research was to study the effect of detergents on the level of different chemicals in Lake Sevan.
-              <br>Processed all the raw data including cleaning and variable engineering.
-              <br>Conducted exploratory data analysis, identified patterns through summary statistics, reports, and visualizations.
-              <br>Currently combining the findings into a manuscript with plans for submission to a peer-reviewed journal.
+              <strong>ServiceTitan</strong><br>ServiceTitan is a unicorn SaaS company headquartered in US, Los Angeles, powering home service businesses.
+              <br>Conducting literature review on sales pitch generation using Large Language Models. Applying advanced Prompt Engineering techniques and domain-specific knowledge to craft persuasive sales arguments using ChatGPT API.
+              <br>Implementing RAGs, specifically Nearest Neighbours Search, to extend and generate better sales proposals. Enhanced the proposal quality by reducing the custom evaluation metric’s median score from 11 to 4.
+              <br>Trained a regression model to predict the optimal length of the proposal which improved the MAE score by ~40%.
+              <br>Performing data analysis, visualizations and evaluation of generations to understand future directions.
             </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              AI Engineer
-              <div class="date">Jun 2024 – Sep 2024</div>
-              <div class="location">California, United States (Remote)</div>
-            </div>
-            <div class="cv-right">
-              <strong>Activeloop</strong><br>Modified the code of MusicGen by Meta AI to run the training pipeline using Deep Lake. Find the repo <a href="https://github.com/HrayrMuradyan/DeepLakeMusicGen/">here</a>.
-              <br>Collected Armenian Music Dataset, labeled, preprocessed and prepared it for training.
-              <br>Fine-tuned the model for Armenian Music Generation using Deep Lake Vector Store and wrote a blog about the step-by-step process. The blog is published <a href="https://www.activeloop.ai/resources/efficiently-fine-tuning-music-gen-for-text-conditioned-music-generation/">here</a>.
-            </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              Machine Learning Engineer
-              <div class="date">May 2023 – Apr 2024</div>
-              <div class="location">Yerevan, Armenia</div>
-            </div>
-            <div class="cv-right">
-              <strong>Philip Morris International</strong><br>Hired by a university professor to work in a team of three on an end-to-end machine learning project, as a result of excelling in machine learning course at AUA.
-              <br>Collected, cleaned, and pre-processed data for model training. Extracted features from the raw data and trained a neural network model for a binary classification task. Developed the project end-to-end. Had a NDA agreement that prevents sharing specific details.
-              <br>In Sep 2023, submitted two reports that were both accepted and were presented to PMI research center in Switzerland.
-            </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              Junior ML Engineer
-              <div class="date">Sep 2022 – May 2023</div>
-              <div class="location">Yerevan, Armenia</div>
-            </div>
-            <div class="cv-right">
-              <strong>CAREAWARE</strong><br>Worked on a robot arm trajectory optimization project by Gerhard Schubert. Designed custom LSTM model that improved the result by 50%.
-              <br>Was the leader of a small team working on an end-to-end vision based Fall Detection project from scratch using OpenCV, PyTorch and other libraries. 
-              <br>Worked on “kick detection for smart trunk opening” project by Intive for smart trunk opening, did visualizations, collected data and developed real-time data labeling techniques using OpenCV for faster and productive data labeling.
-            </div>
-        </div>
-        
-      </section>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">
+                Research Assistant
+                <div class="date">Aug 2024 – Dec 2024</div>
+                <div class="location">Yerevan, Armenia (Remote)</div>
+              </div>
+              <div class="cv-right">
+                <strong>American University of Armenia</strong><br>The aim of the research was to study the effect of detergents on the level of different chemicals in Lake Sevan.
+                <br>Processed all the raw data including cleaning and variable engineering.
+                <br>Conducted exploratory data analysis, identified patterns through summary statistics, reports, and visualizations.
+                <br>Currently combining the findings into a manuscript with plans for submission to a peer-reviewed journal.
+              </div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">
+                AI Engineer
+                <div class="date">Jun 2024 – Sep 2024</div>
+                <div class="location">California, United States (Remote)</div>
+              </div>
+              <div class="cv-right">
+                <strong>Activeloop</strong><br>Modified the code of MusicGen by Meta AI to run the training pipeline using Deep Lake. Find the repo <a href="https://github.com/HrayrMuradyan/DeepLakeMusicGen/">here</a>.
+                <br>Collected Armenian Music Dataset, labeled, preprocessed and prepared it for training.
+                <br>Fine-tuned the model for Armenian Music Generation using Deep Lake Vector Store and wrote a blog about the step-by-step process. The blog is published <a href="https://www.activeloop.ai/resources/efficiently-fine-tuning-music-gen-for-text-conditioned-music-generation/">here</a>.
+              </div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">
+                Machine Learning Engineer
+                <div class="date">May 2023 – Apr 2024</div>
+                <div class="location">Yerevan, Armenia</div>
+              </div>
+              <div class="cv-right">
+                <strong>Philip Morris International</strong><br>Hired by a university professor to work in a team of three on an end-to-end machine learning project, as a result of excelling in machine learning course at AUA.
+                <br>Collected, cleaned, and pre-processed data for model training. Extracted features from the raw data and trained a neural network model for a binary classification task. Developed the project end-to-end. Had a NDA agreement that prevents sharing specific details.
+                <br>In Sep 2023, submitted two reports that were both accepted and were presented to PMI research center in Switzerland.
+              </div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">
+                Junior ML Engineer
+                <div class="date">Sep 2022 – May 2023</div>
+                <div class="location">Yerevan, Armenia</div>
+              </div>
+              <div class="cv-right">
+                <strong>CAREAWARE</strong><br>Worked on a robot arm trajectory optimization project by Gerhard Schubert. Designed custom LSTM model that improved the result by 50%.
+                <br>Was the leader of a small team working on an end-to-end vision based Fall Detection project from scratch using OpenCV, PyTorch and other libraries. 
+                <br>Worked on “kick detection for smart trunk opening” project by Intive for smart trunk opening, did visualizations, collected data and developed real-time data labeling techniques using OpenCV for faster and productive data labeling.
+              </div>
+          </div>
+          
+        </section>
 
-      <section id="education">
-        <h2>Education</h2>
-        <div class="cv-item">
-          <div class="cv-left">
-            Master in Data Science
-            <div class="date">2024 – 2025 (Ongoing)</div>
-          </div>
-          <div class="cv-right">
-            <div class="university"><strong>University of British Columbia</strong></div>
-            <div class="grade">Grade: 93.6% (4/4)</div>
-            <br>
-            <div class="uni-description">MDS is an accelerated masters degree covering the newest practical applications of data science in the industry. The program has an approximately ~5-7% acceptance rate.<br><br>
-            <b>Coursework:</b> Computing Platforms for DS, Programming for DS, Probability and Statistics, Data Manipulation in R, Supervised Learning 1, Statistical Inference 1, Algorithms and Data Structures, Data Visualization, Data Science Workflows, Databases and Data Retrieval, Feature Engineering and Model Selection, Linear Regression, Collaborative Software Development, Communication and Argumentation, Supervised Learning 2, Regression 2, Unsupervised Learning, Data Visualization 2, Bayesian Statistics, Spatial and Temporal Models. Web and Cloud Computing, Experimentation and Causal Inference, Privacy, Ethics, and Security, Advanced Machine Learning.
-            </div>
-          </div>
-        </div>
-        <div class="cv-item">
+        <section id="education">
+          <h2>Education</h2>
+          <div class="cv-item">
             <div class="cv-left">
-              B.Sc in Data Science
-              <div class="date">2020 – 2024</div>
+              Master in Data Science
+              <div class="date">2024 – 2025 (Ongoing)</div>
             </div>
             <div class="cv-right">
-              <div class="university"><strong>American University of Armenia</strong></div>
-              <div class="grade">Grade: 90% (3.7/4)</div>
+              <div class="university"><strong>University of British Columbia</strong></div>
+              <div class="grade">Grade: 93.6% (4/4)</div>
               <br>
-              <div class="uni-description">American University of Armenia is consistently ranked as the leading university in Armenia, recognized for its high academic standards and best educational offerings in the country.<br><br>
-              <b>Coursework:</b> Calculus (Single- and Multi-Variable), Discrete Mathematics, Programming for Data Science, Data Structures/Algorithms in Data Science, Probability, Linear Algebra and Ordinary Differential Equations, Numerical Methods, Databases and Distributed Systems, Statistics, Data Visualization, Business Intelligence, Artificial Intelligence, Statistics 2, Machine Learning, Bayesian Statistics, Marketing Analytics, Business Analytics, Time Series Forecasting, Computer Vision.
+              <div class="uni-description">MDS is an accelerated masters degree covering the newest practical applications of data science in the industry. The program has an approximately ~5-7% acceptance rate.<br><br>
+              <b>Coursework:</b> Computing Platforms for DS, Programming for DS, Probability and Statistics, Data Manipulation in R, Supervised Learning 1, Statistical Inference 1, Algorithms and Data Structures, Data Visualization, Data Science Workflows, Databases and Data Retrieval, Feature Engineering and Model Selection, Linear Regression, Collaborative Software Development, Communication and Argumentation, Supervised Learning 2, Regression 2, Unsupervised Learning, Data Visualization 2, Bayesian Statistics, Spatial and Temporal Models. Web and Cloud Computing, Experimentation and Causal Inference, Privacy, Ethics, and Security, Advanced Machine Learning.
               </div>
             </div>
           </div>
-      </section>
+          <div class="cv-item">
+              <div class="cv-left">
+                B.Sc in Data Science
+                <div class="date">2020 – 2024</div>
+              </div>
+              <div class="cv-right">
+                <div class="university"><strong>American University of Armenia</strong></div>
+                <div class="grade">Grade: 90% (3.7/4)</div>
+                <br>
+                <div class="uni-description">American University of Armenia is consistently ranked as the leading university in Armenia, recognized for its high academic standards and best educational offerings in the country.<br><br>
+                <b>Coursework:</b> Calculus (Single- and Multi-Variable), Discrete Mathematics, Programming for Data Science, Data Structures/Algorithms in Data Science, Probability, Linear Algebra and Ordinary Differential Equations, Numerical Methods, Databases and Distributed Systems, Statistics, Data Visualization, Business Intelligence, Artificial Intelligence, Statistics 2, Machine Learning, Bayesian Statistics, Marketing Analytics, Business Analytics, Time Series Forecasting, Computer Vision.
+                </div>
+              </div>
+            </div>
+        </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <div class="cv-item">
-          <div class="cv-left">Soft Skills</div>
-          <div class="cv-right">Leadership, Safety Mindset, Communication, Collaborative skills, Team player.</div>
-        </div>
-        <div class="cv-item">
-          <div class="cv-left">Hard Skills</div>
-          <div class="cv-right">PyTorch, Tensorflow, Scikit-learn, Git, Matplotlib, Selenium, OOP, OpenCV, SQL, CI/CD, Docker, Python, R, Machine Learning, Statistical Analysis, Deep Learning, Neural Networks, Computer Vision, Data Visualization, Data Analytics. </div>
-        </div>
-        <div class="cv-item">
-          <div class="cv-left">Languages</div>
-          <div class="cv-right">English, Russian, Armenian - Fluent in all three languages</div>
-        </div>
-      </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <div class="cv-item">
+            <div class="cv-left">Soft Skills</div>
+            <div class="cv-right">Leadership, Safety Mindset, Communication, Collaborative skills, Team player.</div>
+          </div>
+          <div class="cv-item">
+            <div class="cv-left">Hard Skills</div>
+            <div class="cv-right">PyTorch, Tensorflow, Scikit-learn, Git, Matplotlib, Selenium, OOP, OpenCV, SQL, CI/CD, Docker, Python, R, Machine Learning, Statistical Analysis, Deep Learning, Neural Networks, Computer Vision, Data Visualization, Data Analytics. </div>
+          </div>
+          <div class="cv-item">
+            <div class="cv-left">Languages</div>
+            <div class="cv-right">English, Russian, Armenian - Fluent in all three languages</div>
+          </div>
+        </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="cv-item">
-          <div class="cv-left">
-            <a href="https://github.com/HrayrMuradyan/DSA-problems-and-solutions">DSA Problems and Solutions</a>
-            <div class="date">(Personal, Ongoing)</div>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="cv-item">
+            <div class="cv-left">
+              <a href="https://github.com/HrayrMuradyan/DSA-problems-and-solutions">DSA Problems and Solutions</a>
+              <div class="date">(Personal, Ongoing)</div>
+            </div>
+            <div class="cv-right">
+              This repository is used for practicing Data Structures and Algorithms (DSA) problems.
+            </div>
           </div>
-          <div class="cv-right">
-            This repository is used for practicing Data Structures and Algorithms (DSA) problems.
+          <div class="cv-item">
+              <div class="cv-left">
+                <a href="https://github.com/UBC-MDS/summarease">Summarease</a>
+                <div class="date">(UBC Collaborative Software Development Course, 03/02/2025)</div>
+              </div>
+              <div class="cv-right">
+                  Includes all components of a complete end-to-end package development using poetry and cookiecutter involving documentation, function tests, code coverage, ci/cd, and collaboration. Grade A+. 
+              </div>
           </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              <a href="https://github.com/UBC-MDS/summarease">Summarease</a>
-              <div class="date">(UBC Collaborative Software Development Course, 03/02/2025)</div>
-            </div>
-            <div class="cv-right">
-                Includes all components of a complete end-to-end package development using poetry and cookiecutter involving documentation, function tests, code coverage, ci/cd, and collaboration. Grade A+. 
-            </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              <a href="https://github.com/UBC-MDS/airline-customer-satisfaction-predictor">Airline Customer Satisfaction Prediction</a>
-              <div class="date">(UBC Data Science Workflows Course, 16/12/2024)</div>
-            </div>
-            <div class="cv-right">
-                Includes all components of a complete end-to-end machine learning project consisting of Docker image, full documentation, function tests, and collaborative work. Grade A+.
-            </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              <a href="https://github.com/HrayrMuradyan/MusicGeneration">Armenian Music Generation</a>
-              <div class="date">(AUA Capstone Project, 20/05/2024)</div>
-            </div>
-            <div class="cv-right">
-                Fine-tuned MusicGen developed by Meta AI with an efficient implementation for Armenian Music Generation encompassing data collection, data preparation and paper writing. Find the final paper <a href="https://github.com/HrayrMuradyan/MusicGeneration/blob/main/additional_tools/Final%20Paper_Text%20Conditioned%20Armenian%20Music%20Generation.pdf">here</a>. Final grade 98.6/100.
-            </div>
-        </div>
-        <div class="cv-item">
-            <div class="cv-left">
-              <a href="https://github.com/HrayrMuradyan/AgeGenderPrediction">Age Gender Prediction from Images</a>
-              <div class="date">(AUA Computer Vision Course, 09/12/2023)</div>
-            </div>
-            <div class="cv-right">
-                Fine-tuned “fairface” model’s weights to predict age (+/- 5 years) and gender (96% accuracy) of a person from the face image. Made a well-received <a href="https://github.com/HrayrMuradyan/AgeGenderPrediction/blob/main/Presentation.pdf">presentation</a> which got 100/100 marks. 
-            </div>
-        </div>
-      </section>
+          <div class="cv-item">
+              <div class="cv-left">
+                <a href="https://github.com/UBC-MDS/airline-customer-satisfaction-predictor">Airline Customer Satisfaction Prediction</a>
+                <div class="date">(UBC Data Science Workflows Course, 16/12/2024)</div>
+              </div>
+              <div class="cv-right">
+                  Includes all components of a complete end-to-end machine learning project consisting of Docker image, full documentation, function tests, and collaborative work. Grade A+.
+              </div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">
+                <a href="https://github.com/HrayrMuradyan/MusicGeneration">Armenian Music Generation</a>
+                <div class="date">(AUA Capstone Project, 20/05/2024)</div>
+              </div>
+              <div class="cv-right">
+                  Fine-tuned MusicGen developed by Meta AI with an efficient implementation for Armenian Music Generation encompassing data collection, data preparation and paper writing. Find the final paper <a href="https://github.com/HrayrMuradyan/MusicGeneration/blob/main/additional_tools/Final%20Paper_Text%20Conditioned%20Armenian%20Music%20Generation.pdf">here</a>. Final grade 98.6/100.
+              </div>
+          </div>
+          <div class="cv-item">
+              <div class="cv-left">
+                <a href="https://github.com/HrayrMuradyan/AgeGenderPrediction">Age Gender Prediction from Images</a>
+                <div class="date">(AUA Computer Vision Course, 09/12/2023)</div>
+              </div>
+              <div class="cv-right">
+                  Fine-tuned “fairface” model’s weights to predict age (+/- 5 years) and gender (96% accuracy) of a person from the face image. Made a well-received <a href="https://github.com/HrayrMuradyan/AgeGenderPrediction/blob/main/Presentation.pdf">presentation</a> which got 100/100 marks. 
+              </div>
+          </div>
+        </section>
+      </div>
+
+      <nav class="toc">
+        <h3>Contents</h3>
+        <ul>
+          <li><a href="#about">Contact Information</a></li>
+          <li><a href="#experience">Work Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
     </div>
-
-    <nav class="toc">
-      <h3>Contents</h3>
-      <ul>
-        <li><a href="#about">Contact Information</a></li>
-        <li><a href="#experience">Work Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
-    </nav>
-  </div>
-</body>
+  <script src="menu.js"></script>
+  </body>
 </html>
