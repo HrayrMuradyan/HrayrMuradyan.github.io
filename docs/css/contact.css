@@ -190,15 +190,62 @@ header ul li a i {
   text-decoration: none;
   border-radius: 5px;
   display: inline-block;
+  margin-top: 20px;
 }
 
 .column .button:hover {
   background-color: #e64a19;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
+}
+
+
+.column h3 {
+  font-size: 25px;
+  color:#15154d;
+}
+
+.copy-text {
+  cursor: pointer;
+  font-size: 18px;
+  transform: translateY(20px);
+  color: #007bff;
+  transition: color 0.3s ease;
+  margin-top: 20;
+  margin-bottom: 0;
+}
+
+.copy-text:hover {
+  color: #0056b3;
+}
+
+.copy-message {
+  display: none;
+  color: #28a745;
+  font-weight: bold;
+  font-size: 16px;
+  transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  left: 60%;
+}
+
+.copy-message.failed {
+  color: #dc3545;
+}
+
+/* Animation for copied message */
+@keyframes slideIn {
+  from {
+      opacity: 0;
+      transform: translateX(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+.copy-message.show {
   display: inline-block;
+  animation: slideIn 0.5s forwards;
 }
 
 /* ========== Footer ========== */
