@@ -224,6 +224,25 @@ section video#background_clip {
     z-index: 0;
 }
 
+#cloud_left, #cloud_right {
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    left: 10%;
+    right: 40%;
+    top: 30%;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    z-index: 100000;
+}
+
+#cloud_left {
+    right: calc(50% + 240px); 
+}
+
+#cloud_right {
+    left: calc(60% + 240px);
+}
+
 #name 
 {
     position: absolute;
