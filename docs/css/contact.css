@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 100px;
   box-sizing: border-box;
 }
 
@@ -174,7 +174,7 @@ header ul li a i {
   flex: 1;
   min-width: 250px;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 8px;
   text-align: center;
 }
