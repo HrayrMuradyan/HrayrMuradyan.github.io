@@ -281,32 +281,72 @@ ul.square-list li {
 }
 
 .work-experience-content {
-  align-items: center;
-  justify-content: center;
   background-color: white;
-  padding: 10px 100px 0 100px;
+  padding: 10px 100px 20px 100px;
   max-width: 60%;
   margin: 0 auto;
+  margin-top: 50px;
   border-radius: 20px;
 }
 
-.work-experience-content p {
+.work-experience-content .center-paragraph {
+
+}
+
+.note-center-paragraph {
   text-align: center;
+  margin: 0 auto;  
+  background-color: #dfb5b5;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 60%;
+  font-size: 20px;
 }
 
 .work-experience-content .image-container {
   display: flex;
   justify-content: center;     
   align-items: center;         
-  gap: 20px;                    
+  gap: 50px;                    
 }
 
 .work-experience-content .image-container img {
-  height: 200px;                
-  object-fit: contain;      
+  height: 250px;                
+  object-fit: contain; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
+}
+
+.work-experience-paragraph {
+  text-align: left;
 }
 
 
+.work-experience-buttons {
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.work-experience-buttons button {
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  padding: 10px 22px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.work-experience-buttons button:hover {
+  background: #e64a19;
+}
 
 
 
