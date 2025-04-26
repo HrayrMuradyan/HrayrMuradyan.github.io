@@ -286,11 +286,8 @@ ul.square-list li {
   max-width: 60%;
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 20px;
-}
-
-.work-experience-content .center-paragraph {
-
 }
 
 .note-center-paragraph {
@@ -324,6 +321,7 @@ ul.square-list li {
 
 .work-experience-buttons {
   margin-bottom: 20px;
+  margin-top: 30px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -346,6 +344,28 @@ ul.square-list li {
 
 .work-experience-buttons button:hover {
   background: #e64a19;
+}
+
+.pmi_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.capstone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.capstone h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #6d0b63;
 }
 
 
