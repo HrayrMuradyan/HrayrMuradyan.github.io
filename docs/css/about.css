@@ -355,19 +355,18 @@ ul.square-list li {
   width: 80%;
 }
 
+
 .capstone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+  width: 70%;
+  margin: 0 auto; 
 }
 
-.capstone h2{
+.capstone h2 {
+  text-align: center;
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #6d0b63;
+  color: #5318c8;
 }
-
 
 
 
