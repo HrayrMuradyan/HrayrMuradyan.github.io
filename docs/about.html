@@ -173,35 +173,74 @@
             <li>In Sep 2023, submitted two reports that were both accepted and were presented to PMI research center in Switzerland.</li>
           </ul>
         </div>
-        
-      </section>
-      <section class="content">
         <div class="capstone">
-          <h2>Capstone Project</h2>
-          <p>
-            In spring 2024 I worked on my capstone project. I was always interested in audio data and chose to explore music generation because it was something innovative and worth attention. 
-            My brother, Karlos Muradyan, who lives in Vancouver, BC, Canada, agreed to supervise my work. Our initial research led us to MusicGen, Meta’s latest generative-audio model. 
-          </p>  
-          <img src="../img/meta_audiocraft.png" class="meta_logo">
-          <p>
-            MusicGen is a text-to-music, music-to-music generational model that lives inside the AudioCraft toolkit. 
-            Audiocraft is a single code base that lets you generate music, create sound effects, and handle audio compression all in one place.
-            To give my project a clear goal, we focused on fine-tuning MusicGen so it could learn to create Armenian music.
-          </p>
-          
-          <div class="audio-container">
-            <h2>Example 1</h2>
+          <div class="capstone-content">
+            <h2>Capstone Project</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis, asperiores sint perspiciatis necessitatibus officiis ratione id, iusto quaerat nobis, neque aspernatur ipsa similique debitis? Doloribus non enim deleniti ipsa.
+              In spring 2024 I worked on my capstone project. I was always interested in audio data and chose to explore music generation because it was something innovative and worth attention. 
+              My brother, Karlos Muradyan, who lives in Vancouver, BC, Canada, agreed to supervise my work. Our initial research led us to MusicGen, Meta’s latest generative-audio model. 
+            </p>  
+            <img src="../img/meta_audiocraft.png" class="meta_logo">
+            <p>
+              MusicGen is a text-to-music, music-to-music generational model that lives inside the AudioCraft toolkit. 
+              Audiocraft is a single code base that lets you generate music, create sound effects, and handle audio compression all in one place.
+              To give my project a clear goal, we focused on fine-tuning MusicGen so it could learn to create Armenian music.
             </p>
-            <h3>
-              Original Composition:
-            </h3>
-            <audio controls>
-              <source src="../wav/wav1.wav" type="audio/wav">
-            </audio>
+            
+            <div class="audio-container">
+              <h2>Prompt 1</h2>
+              <p>
+                A sad and melancholic play on duduk. An Armenian instrumental music that evokes relaxation, calmness accompanied by sorrow and uncheerfulness. It makes the listener think about life, fall into deep contemplation and reevaluate the past, showing the old heritage of Armenia.
+              </p>
+              <h3>
+                Original Composition:
+              </h3>
+              <audio controls>
+                <source src="../wav/example1_original.wav" type="audio/wav">
+              </audio>
+              <h3>
+                Generated Composition:
+              </h3>
+              <audio controls>
+                <source src="../wav/example1_generated.wav" type="audio/wav">
+              </audio>
+            </div>
+            <div class="audio-container">
+              <h2>Prompt 2</h2>
+              <p>
+                A music that has the following genres: Armenian folk, Armenian traditional music. The following Instruments: klarnet, percussion, synthesizer, drums, bass. The following Moods: happy, energetic, melodic.
+              </p>
+              <h3>
+                Original Composition:
+              </h3>
+              <audio controls>
+                <source src="../wav/example2_original.wav" type="audio/wav">
+              </audio>
+              <h3>
+                Generated Composition:
+              </h3>
+              <audio controls>
+                <source src="../wav/example2_generated.wav" type="audio/wav">
+              </audio>
+            </div>
+            <br>
+            <br>
+            <p>
+              We not only figured out the complex code behind MusicGen but were able to adjust it to make it trainable on my GPU with 8 GB Memory.
+              However, there is a tradeoff between the optimized code and the ability to do token-level dropout during the training. 
+              More you can read in our report <a href="https://github.com/HrayrMuradyan/MusicGeneration/blob/main/additional_tools/Final%20Paper_Text%20Conditioned%20Armenian%20Music%20Generation.pdf">here</a>.
+              <br>
+              <br>
+              We received a final grade of 98.62 out of 100. After our Capstone projects were published on the official website of the American University of Armenia, the Head of Marketing at <b>Activeloop reached out to propose a collaboration</b>.
+              The idea was to modify the MusicGen code to integrate DeepLake for data storage and efficient access, and then document the step-by-step process of fine-tuning MusicGen using DeepLake in a blog post.
+            </p>
+            <img src="../img/activeloop.png" class="activeloop_logo">
+            <p class = "capstone-center-paragraph">
+              The blog was published on their official website <a href="https://www.activeloop.ai/resources/efficiently-fine-tuning-music-gen-for-text-conditioned-music-generation/">here</a>.
+            </p>
           </div>
         </div>
+        
       </section>
 
 
