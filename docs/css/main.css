@@ -200,7 +200,7 @@ section img
     height: 220px;
     border-radius: 50%;   
     background-image: conic-gradient(from var(--angle), #8033ff, #fff, #006aff, #8033ff);
-    top: 16.4%;   
+    top: 16%;   
     left: 50%;
     transform: translateX(-50%);
     z-index: 1; 
@@ -427,6 +427,8 @@ section video#background_clip {
 {
     position: relative;
     padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
     background: #fff;
 }
 .div_learn_more h2
@@ -439,8 +441,6 @@ section video#background_clip {
 .div_learn_more p
 {
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
     align-items: center;
     justify-content: center;
     color: #333;
