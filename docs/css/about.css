@@ -368,6 +368,7 @@ ul.square-list li {
   align-items: center;
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .work-experience-buttons button {
@@ -400,8 +401,9 @@ ul.square-list li {
 
 
 .capstone {
-  width: 100%;
+  width: 55%;
   padding: 20px;
+  padding-bottom: 5%;
   margin: 0 auto; 
   background-color: white;
   border-radius: 20px;
@@ -993,8 +995,8 @@ audio {
   .work-experience-buttons {
     margin-bottom: 20px;
     margin-top: 30px;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     display: flex;
   }
   
@@ -1002,6 +1004,7 @@ audio {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
+    margin-top: 5%;
     padding: 10px 22px;
     background-color: #ff5722;
     color: #fff;
