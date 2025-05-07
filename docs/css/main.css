@@ -848,7 +848,7 @@ section video#background_clip {
     p, p a {
         font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         line-height: 1.6;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
 
@@ -1150,7 +1150,8 @@ section video#background_clip {
 
     .quick_summary .profile-info{
         background-color: #fff;
-        padding: 40px;
+        padding: 10%;
+        
         border-radius: 15px;
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
         width: 100%;
@@ -1160,31 +1161,31 @@ section video#background_clip {
     .profile-info h1 {
         text-align: center;
         font-size: 2.5em;
-        margin-bottom: 40px;
+        margin-bottom: 15%;
         color: #484587;
     }
 
     .profile-info .summary {
         display: flex;
         justify-content: space-around;
-        gap: 20px;
+        gap: 2em;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        margin-bottom: 15%;
     }
 
     .profile-info .card {
         background-color: #f9fafc;
-        padding: 20px;
+        padding: 10%;
         border-radius: 15px;
         text-align: center;
-        width: 300px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        box-shadow: 0 8px 15px rgba(14, 7, 42, 0.1);
     }
 
     .profile-info .circle_summary {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 15px;
+        width: 10vh;
+        height: 10vh;
+        margin: 0 auto 5%;
         background-color: #4a90e2;
         color: #fff;
         font-size: 1.2rem;
@@ -1197,7 +1198,7 @@ section video#background_clip {
 
     .profile-info .card h2 {
         font-size: 1.1rem;
-        margin-bottom: 10px;
+        margin-bottom: 5%;
         color: #333;
     }
 
@@ -1211,7 +1212,7 @@ section video#background_clip {
     }
 
     .profile-info .skills h2 {
-        margin-bottom: 20px;
+        margin-bottom: 10%;
         color: #4a90e2;
     }
 
@@ -1239,29 +1240,29 @@ section video#background_clip {
     .div_learn_more
     {
         position: relative;
-        padding: 100px;
-        padding-left: 250px;
-        padding-right: 250px;
+        padding: 30%;
+        padding-left: 10%;
+        padding-right: 10%;
         background: #fff;
     }
     .div_learn_more h2
     {
         font-size: 3em;
-        margin-bottom: 10px;
+        margin-bottom: 10%;
         color: #333;
     }
 
     .div_learn_more p
     {
-        margin-bottom: 10px;
+        margin-bottom: 10%;
         align-items: center;
         justify-content: center;
         color: #333;
     }
 
     .keywords {
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin-bottom: 10%;
+        margin-top: 10%;
         display: flex;
         flex-wrap: wrap;
     }
@@ -1269,7 +1270,7 @@ section video#background_clip {
     .keywords button {
         align-items: center;
         justify-content: center;
-        margin-right: 10px;
+        margin-top: 2%;
         padding: 8px 15px;
         background-color: #ff5722;
         color: #fff;
