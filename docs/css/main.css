@@ -25,7 +25,8 @@ strong {
 body
 {
     min-height: 100vh;
-    background: linear-gradient(#000033, #2b2a58, white, white)
+    background: linear-gradient(#000033, #2b2a58, white, white);
+    overflow-x: hidden;
 }
 
 /* ======================================= Header ======================================= */
@@ -504,9 +505,8 @@ section video#background_clip {
 .newsletter-background{
     background-color: rgb(88, 90, 96);
     background: linear-gradient(rgb(55, 60, 132), rgb(72, 26, 116));
-    padding-top: 150px;
-    padding-bottom: 200px;
-    text-align: center;  
+    padding-top: 100px;
+    padding-bottom: 150px;
     margin-bottom: 100px;
 }
 
@@ -571,10 +571,6 @@ section video#background_clip {
     transition: transform 0.3s ease;
 
 }
-
-/* .wrapper .card:hover{
-    transform: translateY(-10px);
-} */
 
 .card .card-image{
     position: relative;
@@ -659,7 +655,7 @@ section video#background_clip {
 .card .card-profile .card-profile-name {
     font-size: 0.875rem;
     font-weight: 600;
-    color: black;
+    color: rgb(54, 54, 54);
 
 }
 
@@ -687,7 +683,7 @@ section video#background_clip {
     width: 15px;
     overflow: hidden;
     opacity: 1;
-    background: #B1B3F8;
+    background: #ffffff;
 }
 
 .wrapper .swiper-pagination-bullet-active::before {
@@ -697,7 +693,7 @@ section video#background_clip {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #272867;
+    background: #676767;
     transform: scaleX(0);
     transform-origin: left center;
     animation: autoplay-loading 5s linear forwards;
@@ -709,8 +705,8 @@ section video#background_clip {
     }
 }
 
-.wrapper :where(.swiper-button-prev, .swiper-button-next) {
-    color: #6366f1;
+.wrapper .swiper-button-prev, .wrapper .swiper-button-next {
+    color: #ffffff;
     margin-top: -35px;
     transition: all 0.3s ease;
 }
@@ -727,7 +723,7 @@ section video#background_clip {
         margin: 0 10px 25px;
     }
 
-    .wrapper :where(.swiper-button-prev, .swiper-button-next) {
+    .wrapper .swiper-button-prev, .wrapper .swiper-button-next {
         display: none;
     }
 }
