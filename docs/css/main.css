@@ -3,7 +3,7 @@
 {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: "Outfit", sans-serif;
     scroll-behavior: smooth;
 }
@@ -498,6 +498,212 @@ section video#background_clip {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 86, 179, 0.5);
 }
+
+/* ======================================= Newsletter ======================================= */
+
+.newsletter-background{
+    background-color: rgb(230, 229, 236);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.newsletter {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 20px 10px;
+    margin: 0 60px 35px;
+    overflow: hidden;
+}
+
+.wrapper .card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(6, 6, 21, 0.5);
+    transition: transform 0.3s ease;
+
+}
+
+/* .wrapper .card:hover{
+    transform: translateY(-10px);
+} */
+
+.card .card-image{
+    position: relative;
+}
+
+
+.card .card-image img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 22px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.card .card-image .card-tag {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    color: rgb(20, 20, 20);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: rgb(255, 255, 255, 0.8);
+}
+
+.card .card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px 25px;
+}
+
+.card .card-content .card-title {
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+
+.card .card-content .card-text {
+    color: rgb(60, 60, 60);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card .card-content .card-footer {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: auto;
+    justify-content: space-between;
+    border-top: 1px solid rgb(14, 13, 20, 0.1);
+}
+
+.card .card-footer .card-profile{
+    display: flex;
+    align-items: center; 
+}
+
+
+.card .card-profile img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 2px 5px rgb(7, 7, 19, 0.1);
+}
+
+.card .card-profile .card-profile-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-profile .card-profile-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.card .card-footer .card-button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 0.81rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, rgb(49, 45, 79), rgb(19, 16, 31));
+    box-shadow: 0 3px 5px rgb(4, 4, 20, 0.5);
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+.card .card-footer .card-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 7px rgb(4, 4, 20, 0.5);
+
+}
+
+.wrapper .swiper-pagination-bullet {
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    opacity: 1;
+    background: #B1B3F8;
+}
+
+.wrapper .swiper-pagination-bullet-active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #272867;
+    transform: scaleX(0);
+    transform-origin: left center;
+    animation: autoplay-loading 5s linear forwards;
+
+}
+@keyframes autoplay-loading{
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.wrapper :where(.swiper-button-prev, .swiper-button-next) {
+    color: #6366f1;
+    margin-top: -35px;
+    transition: all 0.3s ease;
+}
+
+
+
+.wrapper:hover .wrapper .swiper-pagination-bullet-active::before {
+    animation-play-state: paused;
+}
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        margin: 0 10px 25px;
+    }
+
+    .wrapper :where(.swiper-button-prev, .swiper-button-next) {
+        display: none;
+    }
+}
+
+
+.swiper {
+    max-width: 80%;
+    display: flex !important;
+}
+
+
+
+
+
+
 
 
 
