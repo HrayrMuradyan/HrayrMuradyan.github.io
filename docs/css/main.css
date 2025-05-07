@@ -1062,7 +1062,7 @@ section video#background_clip {
         object-fit: cover;
         mix-blend-mode: screen;
         pointer-events: none;
-        z-index: 0;
+        z-index: -10000;
     }
 
     #cloud_left, #cloud_right {
@@ -1143,7 +1143,7 @@ section video#background_clip {
     .quick_summary {
         background-color: #f0f4f8;
         margin: 0;
-        padding: 80px;
+        padding: 5%;
         display: flex;
         justify-content: center;
     }
@@ -1153,7 +1153,6 @@ section video#background_clip {
         padding: 40px;
         border-radius: 15px;
         box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-        max-width: 1200px;
         width: 100%;
     }
 
