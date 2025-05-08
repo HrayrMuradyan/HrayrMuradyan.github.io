@@ -848,7 +848,7 @@ section video#background_clip {
     /* ======================================= Header ======================================= */
 
     header {
-        padding: 5% 10%;
+        padding: 5% 5%;
         flex-direction: column;  
     }
 
@@ -862,8 +862,8 @@ section video#background_clip {
     }
 
     header ul li {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 1vw;
+        margin-right: 4.5vw;
         margin-top: 5%;
     }
 
@@ -871,16 +871,6 @@ section video#background_clip {
         padding: 20% 20%;
     }
 
-    header ul li a:hover,
-    header ul li a.active {
-        background: #fff;
-        color: #000033;
-        transform: scale(1.15); 
-    }
-
-    header ul li a i {
-        transform: translateY(10%);
-    }
 
     .sub-menu {
         box-shadow: 0px 5% 10% rgba(0, 0, 0, 0.3);
