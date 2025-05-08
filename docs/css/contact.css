@@ -319,3 +319,128 @@ header ul li a i {
 
 
 
+
+
+
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;   /* ← stack logo + ul vertically */
+    align-items: center;      /* ← center horizontally */
+    z-index: 10000;
+  }
+
+  header .logo
+  {
+      color: #fff;
+      font-weight: 700;
+      text-decoration: None;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: 5;
+  }
+
+  header ul {
+      justify-content: center;
+      align-items: center;
+      width: 100%; 
+      padding-left: 0;
+  }
+
+  header ul li {
+      list-style: none;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+  }
+
+  header ul li a {
+      display: inline-block; 
+      text-decoration: none;
+      padding: 20% 20%;
+      color: #fff;
+      border-radius: 20px;
+      transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+
+  header ul li a:hover,
+  header ul li a.active {
+      background: #fff;
+      color: #000033;
+      transform: scale(1.15); 
+  }
+
+  header ul li a i {
+      transform: translateY(10%);
+  }
+
+  .sub-menu {
+      display: none;
+      position: absolute;
+      top: 80%;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(200, 220, 255, 0.9));
+      border-radius: 12px;
+      box-shadow: 0px 5% 10% rgba(0, 0, 0, 0.3);
+      max-width: 40%;
+      z-index: 10001;
+      flex-direction: column;
+      gap: 3%;
+      transition: all 0.3s ease;
+      transform: translate(-30%, 10%);
+  }
+
+  .sub-menu li {
+      list-style: none;
+      margin-left: 5%;
+      width: 80%;
+  }
+
+  .sub-menu li a {
+      display: block;
+      color: #000033;
+      text-decoration: none;
+      transition: background 0.2s ease, color 0.2s ease;
+      font-weight: 500;
+      border-radius: 10px;
+  }
+
+  .sub-menu li a:hover {
+      background: none;
+      background-size: 50%;
+      color: #000033;
+  }
+
+  .sub-menu.show {
+      display: flex;
+      animation: fadeIn 0.3s ease;
+  }
+
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+          transform: translate(-30%, 0);
+      }
+      to {
+          opacity: 1;
+          transform: translate(-30%, 10%);
+      }
+  }
+
+  .bx.bxs-chevron-down {
+      transition: transform 0.3s ease;
+  }
+
+  .menu-item.active .bx.bxs-chevron-down {
+  transform: rotate(180deg);
+  }
+
+
+}
+
+
+
