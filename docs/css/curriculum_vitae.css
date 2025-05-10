@@ -143,10 +143,10 @@ transform: rotate(180deg);
   display: flex;
   justify-content: center;   /* Center children horizontally */
   align-items: center;       /* Center children vertically (optional) */
-  max-width: 1200px;
+  max-width: 90%;
   width: 100%;
   gap: 2rem;
-  margin-top: 120px;
+  margin-top: 10%;
   margin-bottom: 2rem;
   margin-left: auto;         /* Center the container itself in the page */
   margin-right: auto;
@@ -363,6 +363,15 @@ section a:hover {
 }
 
 
+.hamburger {
+  display: none;
+}
+
+.close-btn {
+  display: none;
+}
+
+
 
 
 @media (max-width: 768px) {
@@ -374,9 +383,9 @@ section a:hover {
   }
   .cv-paper, .toc {
     min-height: unset;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box;
   }
   .toc {
@@ -387,121 +396,123 @@ section a:hover {
     order: 1;
   }
   header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5% 10%;
-    display: flex;
-    flex-direction: column;   /* ← stack logo + ul vertically */
-    align-items: center;      /* ← center horizontally */
-    z-index: 10000;
+      padding: 7% 10%;
+      position: relative;
+      
   }
 
-  header .logo
-  {
-      color: #fff;
-      font-weight: 700;
-      text-decoration: None;
-      font-size: 1.8em;
-      text-transform: uppercase;
-      letter-spacing: 5;
-  }
-
-  header ul {
-      margin-top: 1.35%;
-      justify-content: center;
-      align-items: center;
-      width: 100%; 
-      padding-left: 0;
-  }
-
-  header ul li {
-      list-style: none;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-top: 5%;
-  }
-
-  header ul li a {
-      display: inline-block; 
-      text-decoration: none;
-      padding: 20% 20%;
-      color: #fff;
-      border-radius: 20px;
-      transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  }
-
-  header ul li a:hover,
-  header ul li a.active {
-      background: #fff;
-      color: #000033;
-      transform: scale(1.15); 
-  }
-
-  header ul li a i {
-      transform: translateY(10%);
-  }
-
-  .sub-menu {
-      display: none;
+  /* Main hamburger button on the header */
+  .hamburger {
       position: absolute;
-      top: 80%;
-      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(200, 220, 255, 0.9));
-      border-radius: 12px;
-      box-shadow: 0px 5% 10% rgba(0, 0, 0, 0.3);
-      max-width: 40%;
-      z-index: 10001;
-      flex-direction: column;
-      gap: 3%;
-      transition: all 0.3s ease;
-      transform: translate(-30%, 10%);
-  }
-
-  .sub-menu li {
-      list-style: none;
-      margin-left: 5%;
-      width: 80%;
-  }
-
-  .sub-menu li a {
       display: block;
-      color: #000033;
-      text-decoration: none;
-      transition: background 0.2s ease, color 0.2s ease;
-      font-weight: 500;
-      border-radius: 10px;
-  }
-
-  .sub-menu li a:hover {
-      background: none;
-      background-size: 50%;
-      color: #000033;
-  }
-
-  .sub-menu.show {
-      display: flex;
-      animation: fadeIn 0.3s ease;
-  }
-
-  @keyframes fadeIn {
-      from {
-          opacity: 0;
-          transform: translate(-30%, 0);
-      }
-      to {
-          opacity: 1;
-          transform: translate(-30%, 10%);
-      }
-  }
-
-  .bx.bxs-chevron-down {
+      top: 50%;
+      right: 10%;
+      width: 30px;
+      height: 4px;
+      background: white;
+      cursor: pointer;
       transition: transform 0.3s ease;
   }
 
-  .menu-item.active .bx.bxs-chevron-down {
-  transform: rotate(180deg);
+  .hamburger::before,
+  .hamburger::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background: white;
+      transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
   }
+
+  .hamburger::before {
+      top: -300%;
+  }
+
+  .hamburger::after {
+      bottom: -300%;
+  }
+
+  /* Menu styling for the mobile version */
+  header ul {
+      position: fixed;
+      top: 0;
+      right: -300px;  /* hidden by default */
+      width: 250px;
+      height: 100%;
+      background: #474c6e;
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      padding-top: 60px;
+      transition: right 0.3s ease;
+      z-index: 999;
+      padding-left: 0px;
+  }
+
+  /* Show the menu when toggled */
+  header ul.show {
+      right: 0;
+  }
+
+  /* Styling for each menu item */
+  header ul li {
+      margin: 10% 10%;
+  }
+
+  /* Styles for the submenu items inside a menu item */
+  .sub-menu li {
+      margin-left: 10%;
+  }
+
+  /* Make sure the menu item has relative positioning so that submenu can be positioned inside it */
+  header ul li.menu-item {
+      position: relative;  /* Ensures absolute positioning for submenu */
+      width: 100%;         /* Ensures it takes full width */
+  }
+
+  /* Styles for the submenu (it is hidden by default) */
+  .sub-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      left: -10%;
+      top:120%;
+      height: auto;
+      background: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Show the submenu when it's toggled */
+  .sub-menu.show {
+      display: block;
+  }
+
+  /* Close button inside the menu */
+  .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #474c6e;
+      color: white;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      display: flex;
+  }
+
+  .close-btn:hover {
+      background-color: #383c57;
+  }
+
+  /* Close button styling */
+  .close-btn:focus {
+      outline: none;
+  }
+
+  /* =========================== Section ============================= */
+
   .cv-paper {
     padding: 1.2rem;
     border-radius: 8px;
@@ -536,6 +547,139 @@ section a:hover {
     font-size: 1.3em;
     padding: 8px 10px;
   }
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  header {
+      padding: 7% 10%;
+      position: relative;
+      
+  }
+
+  /* Main hamburger button on the header */
+  .hamburger {
+      position: absolute;
+      display: block;
+      top: 50%;
+      right: 10%;
+      width: 30px;
+      height: 4px;
+      background: white;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 4px;
+      background: white;
+      transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+  }
+
+  .hamburger::before {
+      top: -300%;
+  }
+
+  .hamburger::after {
+      bottom: -300%;
+  }
+
+  /* Menu styling for the mobile version */
+  header ul {
+      position: fixed;
+      top: 0;
+      right: -300px;  /* hidden by default */
+      width: 250px;
+      height: 100%;
+      background: #474c6e;
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      padding-top: 60px;
+      transition: right 0.3s ease;
+      z-index: 999;
+      padding-left: 0px;
+  }
+
+  /* Show the menu when toggled */
+  header ul.show {
+      right: 0;
+  }
+
+  /* Styling for each menu item */
+  header ul li {
+      margin: 10% 10%;
+  }
+
+  /* Styles for the submenu items inside a menu item */
+  .sub-menu li {
+      margin-left: 10%;
+  }
+
+  /* Make sure the menu item has relative positioning so that submenu can be positioned inside it */
+  header ul li.menu-item {
+      position: relative;  /* Ensures absolute positioning for submenu */
+      width: 100%;         /* Ensures it takes full width */
+  }
+
+  /* Styles for the submenu (it is hidden by default) */
+  .sub-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      left: -10%;
+      top:120%;
+      height: auto;
+      background: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Show the submenu when it's toggled */
+  .sub-menu.show {
+      display: block;
+  }
+
+  /* Close button inside the menu */
+  .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #474c6e;
+      color: white;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+      padding: 10px;
+      transition: background-color 0.3s ease;
+      display: flex;
+  }
+
+  .close-btn:hover {
+      background-color: #383c57;
+  }
+
+  /* Close button styling */
+  .close-btn:focus {
+      outline: none;
+  }
+
+  .container {
+    max-width: 95%;
+    gap: 1rem;
+    margin-top: 5%;
+  }
+  .cv-paper, .toc {
+    width: 95%;
+  }
+
 }
 
 

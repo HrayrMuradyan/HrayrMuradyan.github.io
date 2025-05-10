@@ -947,17 +947,18 @@ section video#background_clip {
         position: absolute;
         top: 10px;
         right: 10px;
-        background-color: #494a50;
+        background-color: #474c6e;
         color: white;
         border: none;
         font-size: 30px;
         cursor: pointer;
         padding: 10px;
         transition: background-color 0.3s ease;
+        display: flex;
     }
 
     .close-btn:hover {
-        background-color: #333;
+        background-color: #383c57;
     }
 
     /* Close button styling */
@@ -1220,7 +1221,7 @@ section video#background_clip {
     .close-btn:focus {
         outline: none;
     }
-    
+
     section img {            /* Center horizontally */
         width: 20vh;
         height: 20vh;
