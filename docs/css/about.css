@@ -5,14 +5,14 @@
   font-family: "Outfit", sans-serif;
 }
 
-p, h3, p a, .content li {
+p, h3, p a, .content li, .work-experience li{
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.6;
   font-size: 1rem;
   color: rgb(16, 16, 16);
 }
 
-strong {
+strong, b {
   font-weight: bold;
   font-family: inherit;
 }
@@ -471,6 +471,10 @@ audio {
   font-size: 20px;
 }
 
+.capstone-center-paragraph a {
+    font-size: 20px !important;
+  }
+
 
 #masters.content {
   margin-top:50px;
@@ -561,71 +565,72 @@ audio {
 /* ======================================= Footer ======================================= */
 
 .site-footer {
-  background: linear-gradient(to right, #1a1a40, #3d3c6a);
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
-  position: relative;
-  z-index: 10;
+    background: linear-gradient(to right, #1a1a40, #3d3c6a);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
 }
 
 .site-footer .footer-content {
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .site-footer p {
-  font-size: 1.1em;
-  letter-spacing: 0.5px;
+    font-size: 1.1em;
+    color: #fff;
+    letter-spacing: 0.5px;
 }
 
 .site-footer .social-icons {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .site-footer .social-icons a {
-  color: #fff;
-  font-size: 1.8em;
-  transition: transform 0.3s ease, color 0.3s ease;
+    color: #fff;
+    font-size: 1.8em;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .site-footer .social-icons a:hover {
-  color: #00cfff;
-  transform: scale(1.2);
+    color: #00cfff;
+    transform: scale(1.2);
 }
 
 
 #backToTop {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  background-color: #00cfff;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.8em;
-  padding: 12px 16px;
-  cursor: pointer;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  z-index: 9999;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.4s ease, transform 0.3s ease;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #00cfff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.8em;
+    padding: 12px 16px;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, transform 0.3s ease;
 }
 
 #backToTop:hover {
-  transform: scale(1.15);
-  background-color: #009dcc;
+    transform: scale(1.15);
+    background-color: #009dcc;
 }
 
 #backToTop.show {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 
@@ -701,8 +706,10 @@ audio {
   /* ======================================= Header ======================================= */
   
   
-  header {
+    header {
         padding: 7% 10%;
+        position: relative;
+        
     }
 
     /* Main hamburger button on the header */
@@ -740,7 +747,7 @@ audio {
     header ul {
         position: fixed;
         top: 0;
-        right: -250px;  /* hidden by default */
+        right: -300px;  /* hidden by default */
         width: 250px;
         height: 100%;
         background: #474c6e;
@@ -750,6 +757,7 @@ audio {
         padding-top: 60px;
         transition: right 0.3s ease;
         z-index: 999;
+        padding-left: 0px;
     }
 
     /* Show the menu when toggled */
@@ -820,7 +828,7 @@ audio {
     padding: 40px 20px 40px 20px;
     text-align: center;
     color: #fff;
-    margin-top: 0;
+    margin-top: -1%;
   }
   
   .about-header h1 {
@@ -1101,6 +1109,7 @@ audio {
   .capstone-center-paragraph {
     text-align: center;
     margin: 0 auto;  
+
     background-color: #dfb5b5;
     margin-top: 20px;
     margin-bottom: 20px;
