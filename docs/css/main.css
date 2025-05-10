@@ -1108,6 +1108,119 @@ section video#background_clip {
 /* Large devices (small laptops, tablets landscape, 769px–1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
 /* Styles for tablets in landscape, small laptops */
+
+    header {
+        padding: 7% 10%;
+    }
+
+    /* Main hamburger button on the header */
+    .hamburger {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 10%;
+        width: 30px;
+        height: 4px;
+        background: white;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background: white;
+        transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+    }
+
+    .hamburger::before {
+        top: -300%;
+    }
+
+    .hamburger::after {
+        bottom: -300%;
+    }
+
+    /* Menu styling for the mobile version */
+    header ul {
+        position: fixed;
+        top: 0;
+        right: -250px;  /* hidden by default */
+        width: 250px;
+        height: 100%;
+        background: #474c6e;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        padding-top: 60px;
+        transition: right 0.3s ease;
+        z-index: 999;
+    }
+
+    /* Show the menu when toggled */
+    header ul.show {
+        right: 0;
+    }
+
+    /* Styling for each menu item */
+    header ul li {
+        margin: 10% 10%;
+    }
+
+    /* Styles for the submenu items inside a menu item */
+    .sub-menu li {
+        margin-left: 10%;
+    }
+
+    /* Make sure the menu item has relative positioning so that submenu can be positioned inside it */
+    header ul li.menu-item {
+        position: relative;  /* Ensures absolute positioning for submenu */
+        width: 100%;         /* Ensures it takes full width */
+    }
+
+    /* Styles for the submenu (it is hidden by default) */
+    .sub-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        left: -10%;
+        top:120%;
+        height: auto;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Show the submenu when it's toggled */
+    .sub-menu.show {
+        display: block;
+    }
+
+    /* Close button inside the menu */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #494a50;
+        color: white;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .close-btn:hover {
+        background-color: #333;
+    }
+
+    /* Close button styling */
+    .close-btn:focus {
+        outline: none;
+    }
+    
     section img {            /* Center horizontally */
         width: 20vh;
         height: 20vh;
