@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Airline Customer Satisfaction",
+    "description": "The aim of the project is to use Git and GitHub for collaborative data analysis, ensuring smooth teamwork and version control. It focuses on managing software and environment dependencies using virtual environments and containers, while automating data science workflows and creating non-interactive scripts and analysis pipelines for efficient and reproducible work. Additionally, the project involves running literate coding documents non-interactively for streamlined documentation and analysis.",
+    "keywords": ["Collaboration", "Docker", "GitHub", "Report", "Classification", "Full Documentation"],
+    "impact": "Developed a decision tree classification model to predict airline customer satisfaction based on service quality, seat comfort, and demographics. The model achieved a strong F1-score of 0.94 on the test set, effectively distinguishing between satisfied and dissatisfied customers.",
+    "image": "../../img/aua.jpg",
+    "github": "https://github.com/UBC-MDS/airline-customer-satisfaction-predictor"
+  },
+  {
+    "title": "Fraud Detectio333n",
+    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
+    "keywords": ["classification", "random forest", "fraud detection"],
+    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
+    "image": "../../img/aua.jpg",
+    "github": "https://github.com/yourusername/fraud-detection"
+  },
+  {
+    "title": "Fraud Detect334ion",
+    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
+    "keywords": ["classification", "random forest", "fraud detection"],
+    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
+    "image": "../../img/aua.jpg",
+    "github": "https://github.com/yourusername/fraud-detection"
+  },
+  {
+    "title": "Fraud Detec3435tion",
+    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
+    "keywords": ["classification", "random forest", "fraud detection"],
+    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
+    "image": "../../img/aua.jpg",
+    "github": "https://github.com/yourusername/fraud-detection"
+  },
+  {
+    "title": "Fraud Detection3",
+    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
+    "keywords": ["classification", "random forest", "fraud detection"],
+    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
+    "image": "../../img/aua.jpg",
+    "github": "https://github.com/yourusername/fraud-detection"
+  },
+  {
+    "title": "Fraud Detection2",
+    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
+    "keywords": ["classification", "random forest", "fraud detection"],
+    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
+    "image": "../../img/aua.jpg",
+    "github": "https://github.com/yourusername/fraud-detection"
+  }
+]
