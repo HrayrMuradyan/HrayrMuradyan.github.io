@@ -328,12 +328,37 @@ section video#background_clip {
 
 /* ======================================= Quick Summary =============================================== */
 
+
+.summary_background {
+    position: relative;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    z-index: -2;
+    
+}
+
+.summary_background_clip {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: 70%;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+
+  transform: translateX(0); /* default in-place */
+  transition: transform 0.3s ease-out;
+}
+
 .quick_summary {
-    background-color: #f0f4f8;
-    margin: 0;
-    padding: 80px;
-    display: flex;
+    position: relative;
+    z-index: 1;
+    color: #000;
+    padding: 5%;
+    align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .quick_summary .profile-info{
@@ -341,7 +366,7 @@ section video#background_clip {
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-    max-width: 95%;
+    max-width: 70%;
     width: 100%;
 }
 
@@ -1007,12 +1032,17 @@ section video#background_clip {
 
     /* ======================================= Quick Summary =============================================== */
 
+    .summary_background_clip{
+        display: none;
+    }
+    
     .quick_summary {
         padding: 5%;
     }
 
     .quick_summary .profile-info{
         padding: 10%;
+        max-width: 95%;
     }
 
 
@@ -1270,6 +1300,17 @@ section video#background_clip {
     .swiper {
         max-width: 95%;
     }
+
+    .summary_background_clip{
+        display: none;
+    }
+
+    .quick_summary .profile-info{
+        max-width: 95%;
+        width: 100%;
+    }
+
+
 }
 
 
