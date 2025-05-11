@@ -5,46 +5,20 @@
     "keywords": ["Collaboration", "Docker", "GitHub", "Report", "Classification", "Full Documentation"],
     "impact": "Developed a decision tree classification model to predict airline customer satisfaction based on service quality, seat comfort, and demographics. The model achieved a strong F1-score of 0.94 on the test set, effectively distinguishing between satisfied and dissatisfied customers.",
     "image": "../../img/aua.jpg",
-    "github": "https://github.com/UBC-MDS/airline-customer-satisfaction-predictor"
+    "github": "https://github.com/UBC-MDS/airline-customer-satisfaction-predictor",
+    "date": "2024-12-16",
+    "project_tag": "ubc",
+    "project_tag_title": "University of British Columbia"
   },
   {
-    "title": "Fraud Detectio333n",
-    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
-    "keywords": ["classification", "random forest", "fraud detection"],
-    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
+    "title": "Sports Image Classification",
+    "description": "This project focuses on classifying sports images into 100 different categories using Keras and transfer learning. It begins with a baseline model, followed by a regularized version, and ends with a transfer learning model that delivers promising results. Each model is thoroughly documented, including architecture, performance metrics, observations, and suggestions for future improvements. The project demonstrates a strong understanding of the advantages and limitations of each approach, highlighting how transfer learning can significantly enhance performance in image classification tasks.",
+    "keywords": ["Transfer Learning", "Computer Vision", "Classification", "Tensorflow", "Regularization"],
+    "impact": "Achieved 97% accuracy on the validation set, demonstrating strong performance on a balanced dataset with a relatively small number of observations. This high accuracy highlights the model's potential for real-world applications and sets a good foundation for sports image classification tasks.",
     "image": "../../img/aua.jpg",
-    "github": "https://github.com/yourusername/fraud-detection"
-  },
-  {
-    "title": "Fraud Detect334ion",
-    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
-    "keywords": ["classification", "random forest", "fraud detection"],
-    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
-    "image": "../../img/aua.jpg",
-    "github": "https://github.com/yourusername/fraud-detection"
-  },
-  {
-    "title": "Fraud Detec3435tion",
-    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
-    "keywords": ["classification", "random forest", "fraud detection"],
-    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
-    "image": "../../img/aua.jpg",
-    "github": "https://github.com/yourusername/fraud-detection"
-  },
-  {
-    "title": "Fraud Detection3",
-    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
-    "keywords": ["classification", "random forest", "fraud detection"],
-    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
-    "image": "../../img/aua.jpg",
-    "github": "https://github.com/yourusername/fraud-detection"
-  },
-  {
-    "title": "Fraud Detection2",
-    "description": "Built a random forest model to detect fraudulent transactions with high precision.",
-    "keywords": ["classification", "random forest", "fraud detection"],
-    "impact": "Reduced false positives by 30% compared to previous rules-based systems.",
-    "image": "../../img/aua.jpg",
-    "github": "https://github.com/yourusername/fraud-detection"
+    "github": "https://github.com/HrayrMuradyan/SportImageClassification/tree/main",
+    "date": "2022-06-22",
+    "project_tag": "personal",
+    "project_tag_title": "Personal Project"
   }
 ]

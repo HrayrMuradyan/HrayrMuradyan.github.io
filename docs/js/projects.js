@@ -53,14 +53,18 @@ function init() {
       const content = document.createElement("div");
       content.className = "project-content";
       content.innerHTML = `
-        <h3>${p.title}</h3>
-        <p>${p.description}</p>
-        <div class="project-keywords">
-          ${p.keywords.map(keyword => `<button class="keyword-btn">${keyword}</button>`).join('')}
-        </div>
-        <div class="project-impact">Impact: ${p.impact}</div>
-        <div class="project-links"><a href="${p.github}" target="_blank">GitHub ↗</a></div>
-      `;
+      <span class="project-date">${new Date(p.date).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}</span>
+      <h3>${p.title}</h3>
+      <div class="project-meta">
+        <span class="project-tag ${p.project_tag}">${p.project_tag_title}</span>
+      </div>
+      <p>${p.description}</p>
+      <div class="project-keywords">
+        ${p.keywords.map(keyword => `<button class="keyword-btn">${keyword}</button>`).join('')}
+      </div>
+      <div class="project-impact">Impact: ${p.impact}</div>
+      <div class="project-links"><a href="${p.github}" target="_blank">GitHub ↗</a></div>
+    `;
 
       const image = document.createElement("img");
       image.src = p.image;
