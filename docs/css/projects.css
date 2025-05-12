@@ -280,6 +280,11 @@ section {
   color: #dc4141;
 }
 
+.project-tag.aua {
+  background-color: #c2ffd6;
+  color: #2a6a35;
+}
+
 
 .project-date {
   font-size: 0.85rem;
