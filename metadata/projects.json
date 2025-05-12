@@ -1,5 +1,16 @@
 [
   {
+    "title": "Bank Marketing Analytics Dashboard",
+    "description": "This educational project involved building an interactive Bank Marketing Dashboard using Dash and data visualization techniques. The goal was to identify key factors influencing customer decisions about term deposit subscriptions by analyzing demographics, financial status, and past marketing interactions. While the advanced functionality was not the focus, the project highlights effective team collaboration and clear problem formulation.",
+    "keywords": ["Dashboard", "Dash", "Testing", "Collaboration", "Virtual Environments", "GitHub"],
+    "impact": "The dashboard helps marketing managers explore customer traits and optimize targeting strategies, aiming to improve conversion rates and reduce inefficient outreach. It served as a valuable exercise in practicing collaborative workflows for us and applying data-driven thinking in a real-world context.",
+    "image": "../../img/project_banners/bank_analytics_dashboard_banner.png",
+    "github": "https://github.com/UBC-MDS/DSCI-532_2025_12_bank-marketing",
+    "date": "2025-03-17",
+    "project_tag": "ubc",
+    "project_tag_title": "University of British Columbia"
+  },
+  {
     "title": "Summarease Package",
     "description": "The main goal of the project was to collaboratively develop a lightweight Python package using tools like CookieCutter and fundamental data analysis techniques. Summarease is designed to provide quick insights into a dataset by summarizing its key features. It includes functions that help users understand data structure, enabling more efficient planning of data cleaning and exploratory data analysis (EDA). The project targets usability, with clear motivation and usage instructions to ensure users' easy interaction. To check code quality, the functions are tested using pytest, and code coverage metrics are used to track how thoroughly the code is tested. Continuous Integration and Continuous Deployment (CI/CD) practices were integrated into the development workflow to automatically test, version, and deploy the package. This ensures consistent quality, faster iteration, and reduces the risk of human error during updates and releases.",
     "keywords": ["CI/CD", "Package Development", "Full Documentation", "Virtual Environments", "Collaboration", "GitHub", "Testing", "Code Coverage"],

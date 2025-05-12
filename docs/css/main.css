@@ -1350,7 +1350,7 @@ section video#background_clip {
 }
 
 /* Huge devices (large desktops, wide monitors, 1281px and up) */
-@media (min-width: 1439px) {
+@media (min-width: 1921px) {
 /* Styles for big screens, ultrawide monitors */
     
 
