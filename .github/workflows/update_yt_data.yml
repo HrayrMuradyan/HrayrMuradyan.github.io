@@ -43,5 +43,5 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Update YouTube data"
-            git push https://HrayrMuradyan:$GH_PAT@github.com/HrayrMuradyan/personal-website.git HEAD:data-updates
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/HrayrMuradyan/personal-website.git HEAD:data-updates
           fi
