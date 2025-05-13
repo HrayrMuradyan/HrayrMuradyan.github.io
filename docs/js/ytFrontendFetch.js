@@ -1,4 +1,4 @@
-fetch("../youtube_data/channel_data.json")
+fetch("https://raw.githubusercontent.com/HrayrMuradyan/personal-website/data-updates/youtube_data/channel_data.json")
   .then(res => {
     if (!res.ok) {
       throw new Error(`Failed to load: ${res.statusText}`);
