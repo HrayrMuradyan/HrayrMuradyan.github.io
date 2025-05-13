@@ -27,7 +27,7 @@ jobs:
       - name: Fetch YouTube Data
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YT_CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
         run: |
           python src/fetch_youtube_data.py
 
