@@ -1,1 +1,45 @@
+name: Update YouTube Data
 
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GH_PAT: ${{ secrets.GH_PAT }}
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: data-updates
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Fetch YouTube Data
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YT_CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+        run: |
+          python src/fetch_data.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add youtube_data/channel_data.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update YouTube data"
+            git push https://x-access-token:$GH_PAT@github.com/${{ github.repository }} HEAD:data-updates
+          fi
