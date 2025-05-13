@@ -29,6 +29,8 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
         run: |
+          pwd
+          ls -R
           python src/fetch_youtube_data.py
 
       - name: Commit and push
