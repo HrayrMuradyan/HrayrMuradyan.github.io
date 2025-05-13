@@ -7,7 +7,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header('Pragma', 'no-cache')
         super().end_headers()
 
-PORT = 8888
+PORT = 8000
 
 with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
     print(f"Serving at port {PORT}")
