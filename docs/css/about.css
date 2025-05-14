@@ -393,6 +393,14 @@ ul.square-list li {
   background: #e64a19;
 }
 
+.careaware_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  mix-blend-mode: multiply;
+  width: 80%;
+}
+
 .pmi_logo {
   display: block;
   margin-left: auto;
