@@ -161,6 +161,23 @@ transform: rotate(180deg);
   flex-direction: column;  /* Optional: stacks children vertically */
 }
 
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #005fa3;
+  text-decoration: none;
+  color: white;
+}
+
 .cv-paper {
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -218,6 +235,7 @@ section h1 {
   color: #020226;
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.5rem;
+  margin-bottom: 3%;
 }
 
 section h2 {
