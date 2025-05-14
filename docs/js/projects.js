@@ -1,6 +1,6 @@
 let projects = [];
 
-fetch('../../metadata/projects.json')
+fetch('/metadata/projects.json')
   .then(response => response.json())
   .then(data => {
     projects = data;
