@@ -568,7 +568,12 @@ section {
 
     /* Styling for each menu item */
     header ul li {
-        margin: 10% 10%;
+        margin: 7% 7%;
+    }
+
+    .htmlCss-sub-menu li{
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     /* Styles for the submenu items inside a menu item */

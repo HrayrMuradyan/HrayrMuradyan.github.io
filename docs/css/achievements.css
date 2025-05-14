@@ -448,19 +448,6 @@ section {
         outline: none;
     }
 
-    section {
-      padding: 1rem;
-      max-width: 95%;
-    }
-
-    .project-content {
-      padding: 1rem;
-    }
-
-
-    .project-image {
-      display: none;
-    }
 
 }
 
@@ -525,7 +512,12 @@ section {
 
     /* Styling for each menu item */
     header ul li {
-        margin: 10% 10%;
+        margin: 7% 7%;
+    }
+
+    .htmlCss-sub-menu li{
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     /* Styles for the submenu items inside a menu item */
@@ -580,19 +572,7 @@ section {
         outline: none;
     }
 
-    section {
-      padding: 2rem;
-      max-width: 85%;
-    }
-
-    .project-content {
-      padding: 2rem;
-    }
-
-
-    .project-image {
-      display: none;
-    }
+    
   
 
 
@@ -600,30 +580,8 @@ section {
 
 
 @media (min-width: 1280px) and (max-width: 1410px) {
-/* Styles for big screens, ultrawide monitors */
-  .project-content p {
-    font-size: 1rem;
-  }
 
-  section {
-    max-width: 90%;
-  }
 
-  .project-impact {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .project-keywords{
-    margin-top: 1rem;
-  }
 
 }
 
-
-/* Huge devices (large desktops, wide monitors, 1281px and up) */
-@media (min-width: 1410px) {
-/* Styles for big screens, ultrawide monitors */
-
-
-}
