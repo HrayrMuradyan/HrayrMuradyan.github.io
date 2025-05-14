@@ -706,12 +706,14 @@ section video#background_clip {
 
 }
 
+
 .wrapper .swiper-pagination-bullet {
     height: 15px;
     width: 15px;
     overflow: hidden;
     opacity: 1;
     background: #ffffff;
+    
 }
 
 .wrapper .swiper-pagination-bullet-active::before {
@@ -721,7 +723,7 @@ section video#background_clip {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #676767;
+    background: #3e3e52;
     transform: scaleX(0);
     transform-origin: left center;
     animation: autoplay-loading 5s linear forwards;
