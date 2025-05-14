@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Outfit:wght@100..900&family=Poetsen+One&family=Special+Gothic+Condensed+One&display=swap');
+
+*
+{
+  font-family: "Outfit", sans-serif;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+
+}
+
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+  background-color: #000033;
+}
+
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  display: inline-block; 
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #fff;
+    color: #000033;
+    transform: scale(1.15); 
+}
+
+header ul li a.active:hover {
+  background: #bbbbbb; 
+}
+
+header ul li a i {
+  transform: translateY(10%);
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 80%;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(200, 220, 255, 0.9));
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 10001;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.sub-menu li {
+  list-style: none;
+  margin-left: 10px;
+  width: 80%;
+}
+
+.sub-menu li a {
+  padding: 10px 0;
+  display: block;
+  color: #000033;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.sub-menu li a:hover {
+  background: none;
+  background-size: 50%;
+  color: #000033;
+}
+
+.sub-menu.show {
+  display: flex;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-10px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.bx.bxs-chevron-down {
+  transition: transform 0.3s ease;
+}
+
+.menu-item.active .bx.bxs-chevron-down {
+transform: rotate(180deg);
+}
+
+
+
+
+section {
+  max-width: 80%;
+  margin: auto;
+  padding: 2rem;
+
+}
+
+.filter-section {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.filter-section h2 {
+  color: #1e2743;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+
+
+#keyword-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.keyword-btn {
+  padding: 0.5rem 1rem;
+  background-color: #c7e3ee;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-transform: capitalize;
+}
+
+.keyword-btn:hover {
+  background-color: #aacad6;
+}
+
+.keyword-btn.active {
+  background-color: #007bff;
+  color: white;
+}
+
+
+#achievements {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.achievement-section {
+  margin-bottom: 3rem;
+}
+
+.achievement-section h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.score-card {
+  background-color: #f4f4f4;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+}
+
+.score-card span {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.cert-item {
+  text-align: center;
+}
+
+.cert-item img {
+  width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.cert-item img:hover {
+  transform: scale(1.03);
+}
+
+
+.site-footer {
+  background: linear-gradient(to right, #1a1a40, #3d3c6a);
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.site-footer .footer-content {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.site-footer p {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.site-footer .social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.site-footer .social-icons a {
+  color: #fff;
+  font-size: 1.8em;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.site-footer .social-icons a:hover {
+  color: #00cfff;
+  transform: scale(1.2);
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #00cfff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.8em;
+  padding: 12px 16px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+  transform: scale(1.15);
+  background-color: #009dcc;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.hamburger {
+  display: none;
+}
+
+.close-btn {
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 7% 10%;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 10%;
+        width: 30px;
+        height: 4px;
+        background: white;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background: white;
+        transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+    }
+
+    .hamburger::before {
+        top: -300%;
+    }
+
+    .hamburger::after {
+        bottom: -300%;
+    }
+
+    /* Menu styling for the mobile version */
+    header ul {
+      position: fixed;
+      top: 0;
+      right: -300px;  /* hidden by default */
+      width: 250px;
+      height: 100%;
+      background: #474c6e;
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      padding-top: 60px;
+      transition: right 0.3s ease;
+      z-index: 999;
+      padding-left: 0px;
+    }
+
+    /* Show the menu when toggled */
+    header ul.show {
+        right: 0;
+    }
+
+    /* Styling for each menu item */
+    header ul li {
+        margin: 10% 10%;
+    }
+
+    /* Styles for the submenu items inside a menu item */
+    .sub-menu li {
+        margin-left: 10%;
+    }
+
+    /* Make sure the menu item has relative positioning so that submenu can be positioned inside it */
+    header ul li.menu-item {
+        position: relative;  /* Ensures absolute positioning for submenu */
+        width: 100%;         /* Ensures it takes full width */
+    }
+
+    /* Styles for the submenu (it is hidden by default) */
+    .sub-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        left: -10%;
+        top:120%;
+        height: auto;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Show the submenu when it's toggled */
+    .sub-menu.show {
+        display: block;
+    }
+
+    /* Close button inside the menu */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #474c6e;
+        color: white;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+        display: flex;
+    }
+
+    .close-btn:hover {
+        background-color: #383c57;
+    }
+
+    /* Close button styling */
+    .close-btn:focus {
+        outline: none;
+    }
+
+    section {
+      padding: 1rem;
+      max-width: 95%;
+    }
+
+    .project-content {
+      padding: 1rem;
+    }
+
+
+    .project-image {
+      display: none;
+    }
+
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 7% 10%;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 10%;
+        width: 30px;
+        height: 4px;
+        background: white;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .hamburger::before,
+    .hamburger::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background: white;
+        transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+    }
+
+    .hamburger::before {
+        top: -300%;
+    }
+
+    .hamburger::after {
+        bottom: -300%;
+    }
+
+    /* Menu styling for the mobile version */
+    header ul {
+      position: fixed;
+      top: 0;
+      right: -300px;  /* hidden by default */
+      width: 250px;
+      height: 100%;
+      background: #474c6e;
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      padding-top: 60px;
+      transition: right 0.3s ease;
+      z-index: 999;
+      padding-left: 0px;
+    }
+
+    /* Show the menu when toggled */
+    header ul.show {
+        right: 0;
+    }
+
+    /* Styling for each menu item */
+    header ul li {
+        margin: 10% 10%;
+    }
+
+    /* Styles for the submenu items inside a menu item */
+    .sub-menu li {
+        margin-left: 10%;
+    }
+
+    /* Make sure the menu item has relative positioning so that submenu can be positioned inside it */
+    header ul li.menu-item {
+        position: relative;  /* Ensures absolute positioning for submenu */
+        width: 100%;         /* Ensures it takes full width */
+    }
+
+    /* Styles for the submenu (it is hidden by default) */
+    .sub-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        left: -10%;
+        top:120%;
+        height: auto;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Show the submenu when it's toggled */
+    .sub-menu.show {
+        display: block;
+    }
+
+    /* Close button inside the menu */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: #474c6e;
+        color: white;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+        display: flex;
+    }
+
+    .close-btn:hover {
+        background-color: #383c57;
+    }
+
+    /* Close button styling */
+    .close-btn:focus {
+        outline: none;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 85%;
+    }
+
+    .project-content {
+      padding: 2rem;
+    }
+
+
+    .project-image {
+      display: none;
+    }
+  
+
+
+}
+
+
+@media (min-width: 1280px) and (max-width: 1410px) {
+/* Styles for big screens, ultrawide monitors */
+  .project-content p {
+    font-size: 1rem;
+  }
+
+  section {
+    max-width: 90%;
+  }
+
+  .project-impact {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-keywords{
+    margin-top: 1rem;
+  }
+
+}
+
+
+/* Huge devices (large desktops, wide monitors, 1281px and up) */
+@media (min-width: 1410px) {
+/* Styles for big screens, ultrawide monitors */
+
+
+}

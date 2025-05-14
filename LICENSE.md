@@ -22,13 +22,23 @@ The icons and font used on this website do not belong to the Owner. These icons 
 
 ## 3. Attribution
 
+Some content on this website, such as logos, book covers, or specific images, may be the property of their respective copyright holders and are used here under **fair use, public domain, license agreements**.
+
+Such content includes but is not limited to:
+
+- Logos used for informational or editorial purposes (e.g., university or company logos shown in my posts).
+
+- Book covers shown in the About Me section.
+
+- Images sourced from different platforms under permissive licenses.
+
 If you believe that any content on this website has been used without proper attribution or if you believe that I have used your work by mistake and have not referenced you, please contact me at hrayrmuradyan20@gmail.com. I will gladly provide the appropriate attribution or address any concerns.
 
-## 3. Contact for Permission
+## 4. Contact for Permission
 
 If you wish to use any of the content for commercial purposes, or if you want to modify or adapt the content, please contact the Owner at hrayrmuradyan20@gmail.com. Permission for such uses may be granted at the discretion of the Owner, subject to a formal written agreement.
 
-## 4. Restrictions
+## 5. Restrictions
 
 **No Commercial Use:** You may not use any of the content on this website for commercial purposes without obtaining express written permission from the Owner.
 
@@ -36,14 +46,14 @@ If you wish to use any of the content for commercial purposes, or if you want to
 
 **No Redistribution:** You may not sell, distribute, or otherwise make the content available in any form without the Owner’s consent.
 
-## 5. No Warranty
+## 6. No Warranty
 
 The content on this website is provided "as-is". While the Owner tries to ensure the accuracy, completeness, and reliability of the website, no warranties or guarantees are made regarding the website’s functionality, error-free operation, or absence of bugs. Any reliance on the functionality provided is at your own risk. The Owner does not assume responsibility for any technical issues, errors, or interruptions that may occur while using the website.
 
-## 6. Termination of License
+## 7. Termination of License
 
 The license granted under this agreement is revocable by the Owner at any time. Should the Owner determine that any of the terms have been violated, the right to use the content will be immediately revoked, and you may be required to remove the content from any platform on which it was shared.
 
-## 7. Law and Jurisdiction
+## 8. Law and Jurisdiction
 
 This license is governed by the laws of British Columbia, Canada and any disputes arising under this license shall be subject to the exclusive jurisdiction of the courts in Vancouver, British Columbia, Canada.
