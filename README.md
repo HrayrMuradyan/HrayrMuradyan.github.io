@@ -2,7 +2,7 @@
 
 
 **Author:** Hrayr Muradyan  
-**Link:** https://hrayrmuradyan.github.io/personal-website/docs/index.html
+**Link:** https://hrayrmuradyan.github.io/docs/index.html
 
 ## Overview
 
