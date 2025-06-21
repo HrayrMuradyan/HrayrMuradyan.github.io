@@ -4,19 +4,19 @@
     "description": "Welcome to the channel Artificial Intelligence For Beginners! \ud83e\udd16\u2728\n\nWe break down complex AI concepts into easy-to-understand videos, perfect for beginners and enthusiasts alike. Whether you're curious about machine learning, neural networks, or the future of AI, you'll find engaging and informative content here. \ud83c\udf93\ud83d\udcda\n\n\ud83d\udd0d What We Cover:\n\n#machinelearning #ai #neuralnetworks #artificialintelligence #statistics #deeplearning #datascience #aieducation  #techinnovation #aitrends #aiexplained #aiforbeginners #mlalgorithms #aiapplications #aibasics #aiforall \n\n\ud83d\udca1 Why To Subscribe?\n\n\u2022 Simplified explanations,\n\u2022 Real-world examples,\n\u2022 Experts sharing valuable knowledge,\n\u2022 Diverse topics,\n\u2022 AI is made more accessible than ever.\n\nJoin our community of learners and let's explore the fascinating world of artificial intelligence together! \ud83c\udf10\ud83e\udde0\nDon't forget to like, subscribe, and hit the bell icon for updates on our latest videos! \ud83d\udd14\ud83d\udc4d\n",
     "thumbnail": "https://yt3.ggpht.com/s1UaRGPDZxzAwLUVe7lxnUGIcrvtQApzJVgsYcQXq36DUtdw-SD52M-eG6jBCz3V0FwPbepiUg=s800-c-k-c0x00ffffff-no-rj",
     "subscribers": "17000",
-    "views": "310918",
+    "views": "312163",
     "videos": "29",
-    "total_likes": 11800
+    "total_likes": 11827
   },
   "videos": [
     {
-      "title": "Most People Fail This Simple Probability Puzzle | Monty Hall Problem Explained!",
+      "title": "Which Door Would You Choose? | Monty Hall Problem Explained!",
       "description": "\ud83d\udd25 #artificialintelligence #ai #ml #education #probability #statistics #science #puzzle #machinelearning \nThe Monty Hall Problem is one of the most counterintuitive and famous puzzles in probability theory. In this video, I discuss the classic game show scenario where you're faced with a simple choice: three doors, one hiding a car and the other two hiding goats. You pick a door. Then, the host - Monky hall - opens one of the remaining doors to reveal a goat. Now the dilemma is: should you stick with your original choice or switch? At first it sounds like a 50/50 decision, but it's not.\n\nI explain the trick behind the problem in three different simple ways, including the classical, frequentist approach and the Bayesian method. By the end of this video, you will understand why switching actually doubles your chances of winning the car. The idea behind switching the doors is hard to understand at first. Why would it matter? The probability can be incredibly misleading. If you understand it, you can have a great advantage!\n\n\ud83d\udd0d Key points covered:\n\n0:00 - Introduction to the Monty Hall Problem.\n0:37 - The answer to the problem is...\n1:11 - Explanation N1.\n1:39 - Explanation N2.\n1:55 - What if there are 20 doors?\n2:15 - Explanation N3. Bayesian Approach.\n4:00 - Subscribe!\n\n\ud83c\udfb5 Music in the video:\nKool Kats by Kevin MacLeod is licensed under a Creative Commons Attribution 4.0 license. https://creativecommons.org/licenses/by/4.0/\n\n\ud83d\udd14 Don't forget to like, subscribe, and hit the bell icon to stay updated with our latest videos! \n\n\ud83e\udd16 Note that we use synthetic generations, such as AI-generated images and voices, to enhance the appeal and engagement of our content.\n\n\ud83c\udf10 If you have any questions or topics you want us to cover, leave a comment below. Additionally, share with your thoughts about the content, how do you think we can make them better? Thanks for watching!",
       "thumbnail": "https://i.ytimg.com/vi/6GW9ts0q3nY/mqdefault.jpg",
       "videoId": "6GW9ts0q3nY",
       "publishedAt": "2025-05-29T06:01:32Z",
       "likes": 23,
-      "views": 719
+      "views": 724
     },
     {
       "title": "Central Limit Theorem Intuition Explained Like You're 5!",
@@ -25,7 +25,7 @@
       "videoId": "3lu7H6EwFSU",
       "publishedAt": "2025-04-03T07:15:19Z",
       "likes": 81,
-      "views": 2097
+      "views": 2101
     },
     {
       "title": "Best Practices for Effective Data Visualization In Machine Learning!",
@@ -33,8 +33,8 @@
       "thumbnail": "https://i.ytimg.com/vi/8SFUXDHVLvg/mqdefault.jpg",
       "videoId": "8SFUXDHVLvg",
       "publishedAt": "2025-02-24T08:00:12Z",
-      "likes": 160,
-      "views": 3068
+      "likes": 159,
+      "views": 3074
     },
     {
       "title": "6 Mistakes to Avoid When Learning Machine Learning in 2025",
@@ -42,8 +42,8 @@
       "thumbnail": "https://i.ytimg.com/vi/yLlgHKaMyIw/mqdefault.jpg",
       "videoId": "yLlgHKaMyIw",
       "publishedAt": "2025-02-06T07:49:46Z",
-      "likes": 418,
-      "views": 11822
+      "likes": 421,
+      "views": 11862
     },
     {
       "title": "All Machine Learning Models Clearly Explained!",
@@ -51,8 +51,8 @@
       "thumbnail": "https://i.ytimg.com/vi/0YdpwSYMY6I/mqdefault.jpg",
       "videoId": "0YdpwSYMY6I",
       "publishedAt": "2025-02-02T18:35:04Z",
-      "likes": 8827,
-      "views": 234490
+      "likes": 8846,
+      "views": 235390
     },
     {
       "title": "How is Artificial Intelligence different from Traditional Programming?",
@@ -61,7 +61,7 @@
       "videoId": "cnEsy_428fM",
       "publishedAt": "2024-12-27T23:48:22Z",
       "likes": 148,
-      "views": 4198
+      "views": 4215
     },
     {
       "title": "The Ultimate Guide to Hyperparameter Tuning | Grid Search vs. Randomized Search",
@@ -70,7 +70,7 @@
       "videoId": "lfiw2Rh2v8k",
       "publishedAt": "2024-12-01T07:25:43Z",
       "likes": 187,
-      "views": 6037
+      "views": 6083
     },
     {
       "title": "Normalization and Standardization | Why to Scale the Features? | ML Basics",
@@ -79,7 +79,7 @@
       "videoId": "dHSWjZ_quaU",
       "publishedAt": "2024-11-07T08:00:51Z",
       "likes": 77,
-      "views": 2594
+      "views": 2598
     },
     {
       "title": "Easiest Guide to K-Fold Cross Validation | Explained in 2 Minutes!",
@@ -88,7 +88,7 @@
       "videoId": "k4vi6Q299Ng",
       "publishedAt": "2024-10-28T04:51:20Z",
       "likes": 70,
-      "views": 2139
+      "views": 2149
     },
     {
       "title": "7 PROVEN Strategies To Become An AI Engineer (2025 Updated)",
@@ -96,8 +96,8 @@
       "thumbnail": "https://i.ytimg.com/vi/A6grnwE9sWw/mqdefault.jpg",
       "videoId": "A6grnwE9sWw",
       "publishedAt": "2024-10-16T09:26:24Z",
-      "likes": 652,
-      "views": 12833
+      "likes": 653,
+      "views": 12840
     },
     {
       "title": "3 Main Types of Missing Data | Do THIS Before Handling Missing Values!",
@@ -105,8 +105,8 @@
       "thumbnail": "https://i.ytimg.com/vi/UzsWr9X98J8/mqdefault.jpg",
       "videoId": "UzsWr9X98J8",
       "publishedAt": "2024-10-05T08:52:13Z",
-      "likes": 90,
-      "views": 2206
+      "likes": 91,
+      "views": 2235
     },
     {
       "title": "Numerical vs. Categorical Data | Represent Your Dataset Correctly!",
@@ -115,7 +115,7 @@
       "videoId": "3-R6PikEu5A",
       "publishedAt": "2024-09-24T07:06:56Z",
       "likes": 34,
-      "views": 1123
+      "views": 1130
     },
     {
       "title": "8 Best Tips For Cleaning Your Data | Data Cleaning | Machine Learning, Data Preparation.",
@@ -124,7 +124,7 @@
       "videoId": "J83qfwt-beQ",
       "publishedAt": "2024-09-10T03:59:00Z",
       "likes": 57,
-      "views": 1408
+      "views": 1415
     },
     {
       "title": "How to Evaluate Your ML Models Effectively? | Evaluation Metrics in Machine Learning!",
@@ -133,7 +133,7 @@
       "videoId": "FXokoJUhsLQ",
       "publishedAt": "2024-09-03T03:34:12Z",
       "likes": 86,
-      "views": 2662
+      "views": 2697
     },
     {
       "title": "The Role of Loss Functions | Most Common Loss Functions in Machine Learning | Explained!",
@@ -142,7 +142,7 @@
       "videoId": "AUmZGGm6quw",
       "publishedAt": "2024-08-30T02:22:32Z",
       "likes": 47,
-      "views": 1104
+      "views": 1115
     },
     {
       "title": "Main Types of Gradient Descent | Batch, Stochastic and Mini-Batch Explained! | Which One to Choose?",
@@ -151,7 +151,7 @@
       "videoId": "cAfS2Uq6ujc",
       "publishedAt": "2024-08-22T19:52:38Z",
       "likes": 32,
-      "views": 748
+      "views": 751
     },
     {
       "title": "Gradient Descent Explained | How Do ML and DL Models Learn? | Simple Explanation!",
@@ -169,7 +169,7 @@
       "videoId": "pptU3bpJojo",
       "publishedAt": "2024-06-19T14:35:51Z",
       "likes": 45,
-      "views": 1359
+      "views": 1366
     },
     {
       "title": "The Role of Validation Sets in Model Training | Train-Test-Validation Splits | Clearly explained!",
@@ -178,7 +178,7 @@
       "videoId": "NzHE-uNirII",
       "publishedAt": "2024-06-16T21:52:59Z",
       "likes": 36,
-      "views": 667
+      "views": 668
     },
     {
       "title": "The Purpose of Train-Test Split in Machine Learning | How to Correctly Split Data?",
@@ -187,7 +187,7 @@
       "videoId": "4YAq-vCDnKk",
       "publishedAt": "2024-06-13T10:23:10Z",
       "likes": 41,
-      "views": 760
+      "views": 762
     },
     {
       "title": "Checking The Assumptions Of Linear Regression | Statistical And Visual Methods | Part 2",
@@ -205,7 +205,7 @@
       "videoId": "XTAdmNj2rCY",
       "publishedAt": "2024-06-06T23:01:44Z",
       "likes": 39,
-      "views": 738
+      "views": 739
     },
     {
       "title": "Linear Regression Explained | A Beginner's Guide To Regression | The Basics You Need to Know!",
@@ -249,8 +249,8 @@
       "thumbnail": "https://i.ytimg.com/vi/ZNrwlu7cvsI/mqdefault.jpg",
       "videoId": "ZNrwlu7cvsI",
       "publishedAt": "2024-05-23T21:21:09Z",
-      "likes": 76,
-      "views": 2211
+      "likes": 77,
+      "views": 2239
     },
     {
       "title": "AI vs. ML vs. DL vs. DS - Difference Explained | On Real World Examples | AI For Beginners",
@@ -258,8 +258,8 @@
       "thumbnail": "https://i.ytimg.com/vi/hhFG9X3h8t8/mqdefault.jpg",
       "videoId": "hhFG9X3h8t8",
       "publishedAt": "2024-05-21T14:24:47Z",
-      "likes": 267,
-      "views": 3808
+      "likes": 270,
+      "views": 3826
     },
     {
       "title": "Artificial Intelligence Explained In Simple Words | What Is AI? | Explained On A Real World Example!",
@@ -268,7 +268,7 @@
       "videoId": "vUTEoEOBN-I",
       "publishedAt": "2024-05-16T20:55:31Z",
       "likes": 55,
-      "views": 2239
+      "views": 2240
     }
   ]
 }
