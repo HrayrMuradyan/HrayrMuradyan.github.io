@@ -6,7 +6,7 @@
     "subscribers": "27500",
     "views": "730295",
     "videos": "32",
-    "total_likes": 20757
+    "total_likes": 20772
   },
   "videos": [
     {
@@ -16,7 +16,7 @@
       "videoId": "7OT03jCn28Y",
       "publishedAt": "2025-10-16T08:33:02Z",
       "likes": 84,
-      "views": 3347
+      "views": 3351
     },
     {
       "title": "What\u2019s the Probability That Two Randomly Drawn Chords in a Circle Intersect?",
@@ -25,7 +25,7 @@
       "videoId": "sGaTJOOH1qU",
       "publishedAt": "2025-07-16T07:08:56Z",
       "likes": 21,
-      "views": 1369
+      "views": 1370
     },
     {
       "title": "All Machine Learning Concepts Explained in 18 Minutes!",
@@ -34,7 +34,7 @@
       "videoId": "V5fF2Fr_9fo",
       "publishedAt": "2025-07-10T06:41:12Z",
       "likes": 141,
-      "views": 3832
+      "views": 3835
     },
     {
       "title": "Which Door Would You Choose? | Monty Hall Problem Explained!",
@@ -42,8 +42,8 @@
       "thumbnail": "https://i.ytimg.com/vi/6GW9ts0q3nY/mqdefault.jpg",
       "videoId": "6GW9ts0q3nY",
       "publishedAt": "2025-05-29T06:01:32Z",
-      "likes": 52,
-      "views": 4851
+      "likes": 53,
+      "views": 4863
     },
     {
       "title": "Central Limit Theorem Intuition Explained Like You're 5!",
@@ -52,7 +52,7 @@
       "videoId": "3lu7H6EwFSU",
       "publishedAt": "2025-04-03T07:15:19Z",
       "likes": 114,
-      "views": 3303
+      "views": 3306
     },
     {
       "title": "Best Practices for Effective Data Visualization In Machine Learning!",
@@ -61,7 +61,7 @@
       "videoId": "8SFUXDHVLvg",
       "publishedAt": "2025-02-24T08:00:12Z",
       "likes": 227,
-      "views": 7360
+      "views": 7361
     },
     {
       "title": "6 Mistakes to Avoid When Learning Machine Learning in 2025",
@@ -70,7 +70,7 @@
       "videoId": "yLlgHKaMyIw",
       "publishedAt": "2025-02-06T07:49:46Z",
       "likes": 644,
-      "views": 22985
+      "views": 22995
     },
     {
       "title": "All Machine Learning Models Clearly Explained!",
@@ -78,8 +78,8 @@
       "thumbnail": "https://i.ytimg.com/vi/0YdpwSYMY6I/mqdefault.jpg",
       "videoId": "0YdpwSYMY6I",
       "publishedAt": "2025-02-02T18:35:04Z",
-      "likes": 15120,
-      "views": 492223
+      "likes": 15125,
+      "views": 492423
     },
     {
       "title": "How is Artificial Intelligence different from Traditional Programming?",
@@ -87,8 +87,8 @@
       "thumbnail": "https://i.ytimg.com/vi/cnEsy_428fM/mqdefault.jpg",
       "videoId": "cnEsy_428fM",
       "publishedAt": "2024-12-27T23:48:22Z",
-      "likes": 248,
-      "views": 10708
+      "likes": 249,
+      "views": 10718
     },
     {
       "title": "The Ultimate Guide to Hyperparameter Tuning | Grid Search vs. Randomized Search",
@@ -96,8 +96,8 @@
       "thumbnail": "https://i.ytimg.com/vi/lfiw2Rh2v8k/mqdefault.jpg",
       "videoId": "lfiw2Rh2v8k",
       "publishedAt": "2024-12-01T07:25:43Z",
-      "likes": 769,
-      "views": 37614
+      "likes": 770,
+      "views": 37667
     },
     {
       "title": "Normalization and Standardization | Why to Scale the Features? | ML Basics",
@@ -106,7 +106,7 @@
       "videoId": "dHSWjZ_quaU",
       "publishedAt": "2024-11-07T08:00:51Z",
       "likes": 141,
-      "views": 5483
+      "views": 5489
     },
     {
       "title": "Easiest Guide to K-Fold Cross Validation | Explained in 2 Minutes!",
@@ -115,7 +115,7 @@
       "videoId": "k4vi6Q299Ng",
       "publishedAt": "2024-10-28T04:51:20Z",
       "likes": 166,
-      "views": 7952
+      "views": 7956
     },
     {
       "title": "7 PROVEN Strategies To Become An AI Engineer (2025 Updated)",
@@ -124,7 +124,7 @@
       "videoId": "A6grnwE9sWw",
       "publishedAt": "2024-10-16T09:26:24Z",
       "likes": 701,
-      "views": 14781
+      "views": 14782
     },
     {
       "title": "3 Main Types of Missing Data | Do THIS Before Handling Missing Values!",
@@ -133,7 +133,7 @@
       "videoId": "UzsWr9X98J8",
       "publishedAt": "2024-10-05T08:52:13Z",
       "likes": 325,
-      "views": 18845
+      "views": 18865
     },
     {
       "title": "Numerical vs. Categorical Data | Represent Your Dataset Correctly!",
@@ -141,8 +141,8 @@
       "thumbnail": "https://i.ytimg.com/vi/3-R6PikEu5A/mqdefault.jpg",
       "videoId": "3-R6PikEu5A",
       "publishedAt": "2024-09-24T07:06:56Z",
-      "likes": 79,
-      "views": 6946
+      "likes": 80,
+      "views": 6957
     },
     {
       "title": "8 Best Tips For Cleaning Your Data | Data Cleaning | Machine Learning, Data Preparation.",
@@ -151,7 +151,7 @@
       "videoId": "J83qfwt-beQ",
       "publishedAt": "2024-09-10T03:59:00Z",
       "likes": 93,
-      "views": 3874
+      "views": 3877
     },
     {
       "title": "How to Evaluate Your ML Models Effectively? | Evaluation Metrics in Machine Learning!",
@@ -159,8 +159,8 @@
       "thumbnail": "https://i.ytimg.com/vi/FXokoJUhsLQ/mqdefault.jpg",
       "videoId": "FXokoJUhsLQ",
       "publishedAt": "2024-09-03T03:34:12Z",
-      "likes": 336,
-      "views": 19199
+      "likes": 340,
+      "views": 19227
     },
     {
       "title": "The Role of Loss Functions | Most Common Loss Functions in Machine Learning | Explained!",
@@ -169,7 +169,7 @@
       "videoId": "AUmZGGm6quw",
       "publishedAt": "2024-08-30T02:22:32Z",
       "likes": 149,
-      "views": 8408
+      "views": 8419
     },
     {
       "title": "Main Types of Gradient Descent | Batch, Stochastic and Mini-Batch Explained! | Which One to Choose?",
@@ -178,7 +178,7 @@
       "videoId": "cAfS2Uq6ujc",
       "publishedAt": "2024-08-22T19:52:38Z",
       "likes": 84,
-      "views": 3497
+      "views": 3502
     },
     {
       "title": "Gradient Descent Explained | How Do ML and DL Models Learn? | Simple Explanation!",
@@ -187,7 +187,7 @@
       "videoId": "CUh4VHpTv1w",
       "publishedAt": "2024-08-20T23:19:26Z",
       "likes": 61,
-      "views": 2094
+      "views": 2097
     },
     {
       "title": "Overfitting and Underfitting | Bias and Variance Tradeoff in Machine Learning | Clearly Explained!",
@@ -196,7 +196,7 @@
       "videoId": "pptU3bpJojo",
       "publishedAt": "2024-06-19T14:35:51Z",
       "likes": 143,
-      "views": 7406
+      "views": 7421
     },
     {
       "title": "The Role of Validation Sets in Model Training | Train-Test-Validation Splits | Clearly explained!",
@@ -205,7 +205,7 @@
       "videoId": "NzHE-uNirII",
       "publishedAt": "2024-06-16T21:52:59Z",
       "likes": 70,
-      "views": 2606
+      "views": 2611
     },
     {
       "title": "The Purpose of Train-Test Split in Machine Learning | How to Correctly Split Data?",
@@ -214,7 +214,7 @@
       "videoId": "4YAq-vCDnKk",
       "publishedAt": "2024-06-13T10:23:10Z",
       "likes": 81,
-      "views": 4073
+      "views": 4079
     },
     {
       "title": "Checking The Assumptions Of Linear Regression | Statistical And Visual Methods | Part 2",
@@ -223,7 +223,7 @@
       "videoId": "wiuhCe9D05o",
       "publishedAt": "2024-06-10T18:02:16Z",
       "likes": 36,
-      "views": 1580
+      "views": 1581
     },
     {
       "title": "Assumptions Of Linear Regression | What To Do If The Assumptions Do Not Hold? | Part 1",
@@ -232,7 +232,7 @@
       "videoId": "XTAdmNj2rCY",
       "publishedAt": "2024-06-06T23:01:44Z",
       "likes": 55,
-      "views": 2214
+      "views": 2216
     },
     {
       "title": "Linear Regression Explained | A Beginner's Guide To Regression | The Basics You Need to Know!",
@@ -240,8 +240,8 @@
       "thumbnail": "https://i.ytimg.com/vi/qyeB4j80WTc/mqdefault.jpg",
       "videoId": "qyeB4j80WTc",
       "publishedAt": "2024-06-02T19:26:36Z",
-      "likes": 94,
-      "views": 3952
+      "likes": 95,
+      "views": 3957
     },
     {
       "title": "The Ultimate Guide To Supervised Learning | Classification And Regression | Part 2",
@@ -250,7 +250,7 @@
       "videoId": "DfjLmdQWSZo",
       "publishedAt": "2024-05-31T22:06:06Z",
       "likes": 38,
-      "views": 1407
+      "views": 1409
     },
     {
       "title": "The Ultimate Guide To Supervised Learning | Explained On Binary Classification Example | Part 1",
@@ -259,7 +259,7 @@
       "videoId": "gC2rgECJMZY",
       "publishedAt": "2024-05-30T20:30:36Z",
       "likes": 50,
-      "views": 2052
+      "views": 2053
     },
     {
       "title": "Best AI Music Generator | Music Generation Tool for FREE | MusicGen developed by Meta AI",
@@ -268,7 +268,7 @@
       "videoId": "mMkCn2UimLA",
       "publishedAt": "2024-05-27T14:11:49Z",
       "likes": 47,
-      "views": 4989
+      "views": 4992
     },
     {
       "title": "Types Of Machine Learning Algorithms | Explained On Real World Examples | ML For Beginners",
@@ -276,8 +276,8 @@
       "thumbnail": "https://i.ytimg.com/vi/ZNrwlu7cvsI/mqdefault.jpg",
       "videoId": "ZNrwlu7cvsI",
       "publishedAt": "2024-05-23T21:21:09Z",
-      "likes": 187,
-      "views": 10896
+      "likes": 188,
+      "views": 10902
     },
     {
       "title": "AI vs. ML vs. DL vs. DS - Difference Explained | On Real World Examples | AI For Beginners",
@@ -286,7 +286,7 @@
       "videoId": "hhFG9X3h8t8",
       "publishedAt": "2024-05-21T14:24:47Z",
       "likes": 328,
-      "views": 7123
+      "views": 7129
     },
     {
       "title": "Artificial Intelligence Explained In Simple Words | What Is AI? | Explained On A Real World Example!",
@@ -295,7 +295,7 @@
       "videoId": "vUTEoEOBN-I",
       "publishedAt": "2024-05-16T20:55:31Z",
       "likes": 73,
-      "views": 4040
+      "views": 4043
     }
   ]
 }
